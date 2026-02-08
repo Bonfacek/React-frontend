@@ -129,8 +129,9 @@ export default function Footer() {
           </div>
         </div>
 
-        <div className="border-t border-primary-foreground/20 pt-8 text-center">
+        <div className="border-t border-primary-foreground/20 pt-8 text-center" style={{ display: "flex", flexDirection: "row", alignItems: "center", gap: "100px" }}>
           <p className="text-primary-foreground/80">&copy; 2025 JawaTech Engineering. All rights reserved.</p>
+           <p className="text-primary-foreground/80" style={{color:"greenyellow", font:"icon"}}>&copy; 2025 Designed & Developed by Jalsoft</p>
         </div>
       </div>
     </footer>
