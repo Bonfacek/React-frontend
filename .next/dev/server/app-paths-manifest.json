@@ -1,5 +1,10 @@
 {
+  "/_not-found/page": "app/_not-found/page.js",
   "/contact/page": "app/contact/page.js",
   "/page": "app/page.js",
-  "/quote/page": "app/quote/page.js"
+  "/quote/page": "app/quote/page.js",
+  "/services/biogas/page": "app/services/biogas/page.js",
+  "/services/civil/page": "app/services/civil/page.js",
+  "/services/electrical/page": "app/services/electrical/page.js",
+  "/services/telecom/page": "app/services/telecom/page.js"
 }

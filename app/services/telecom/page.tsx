@@ -19,9 +19,9 @@ export default function TelecomPage() {
             </p>
           </div>
 
-          <div className="mt-12 h-96 rounded-lg overflow-hidden shadow-lg animate-scale-up">
+          <div className="mt-0 h-140 rounded-lg  shadow-lg animate-scale-up">
             <img
-              src="/african-telecommunications-tower-network-infrastru.jpg"
+              src="/tellecom.jpg"
               alt="Telecommunications Engineering"
               className="w-full h-full object-cover"
             />

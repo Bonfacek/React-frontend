@@ -65,13 +65,13 @@ export default function CivilPage() {
             <h2 className="text-3xl font-bold text-foreground mb-8 text-center">Notable Projects</h2>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
               {[
-                { name: "Urban Highway Expansion", location: "Metro Area", duration: "24 months" },
+                { name: "Urban Highway Expansion", location: "Metro Area", duration: "3 years" },
                 { name: "Multi-Span Bridge", location: "River Crossing", duration: "18 months" },
                 { name: "Water Treatment Plant", location: "Industrial District", duration: "12 months" },
               ].map((project, i) => (
                 <div key={i} className="bg-card border border-border rounded-lg p-6 hover:shadow-lg transition-shadow">
                   <img
-                    src="/civil-engineering-structure.jpg"
+                    src="/bridge.png"
                     alt={project.name}
                     className="w-full h-48 object-cover rounded-lg mb-4"
                   />
@@ -113,11 +113,11 @@ export default function CivilPage() {
                 {
                   author: "Michael Chen",
                   company: "Infrastructure Authority",
-                  text: "BuildTech delivered a complex urban highway project ahead of schedule. Their engineering team is exceptional.",
+                  text: "Jawatech delivered a complex urban highway project ahead of schedule. Their engineering team is exceptional.",
                 },
                 {
-                  author: "Lisa Anderson",
-                  company: "Municipal Services",
+                  author: "Sarah Munene",
+                  company: "Self Employed",
                   text: "Impressed by their attention to detail and sustainable construction practices. Highly professional team.",
                 },
               ].map((testimonial, i) => (

@@ -19,8 +19,8 @@ export default function ElectricalPage() {
             </p>
           </div>
 
-          <div className="mt-12 h-96 rounded-lg overflow-hidden shadow-lg animate-scale-up">
-            <img src="/african-solar-panels-installation-on-commercial-bu.jpg" alt="Electrical Engineering" className="w-full h-full object-cover" />
+          <div className="mt-12 h-140 rounded-lg overflow-hidden shadow-lg animate-scale-up">
+            <img src="/power.jpg" alt="Electrical Engineering" className="w-full h-full object-cover" />
           </div>
         </div>
       </section>

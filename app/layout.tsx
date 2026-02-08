@@ -8,10 +8,10 @@ const _geist = Geist({ subsets: ["latin"] })
 const _geistMono = Geist_Mono({ subsets: ["latin"] })
 
 export const metadata: Metadata = {
-  title: "BuildTech Engineering - Construction & Engineering Solutions",
+  title: "Jawatech Engineering - Construction & Engineering Solutions",
   description:
     "Expert construction and engineering services including Biogas Construction, Civil Engineering, Electrical Engineering, and Telecommunications Networks.",
-  generator: "v0.app",
+  generator: "Jawatech ",
   icons: {
     icon: [
       {

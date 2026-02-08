@@ -17,8 +17,8 @@ export default function BiogasPage() {
             </p>
           </div>
 
-          <div className="mt-12 h-96 rounded-lg overflow-hidden shadow-lg animate-scale-up">
-            <img src="/biogas-facility-renewable-energy.jpg" alt="Biogas Construction" className="w-full h-full object-cover" />
+          <div className="mt-2 h-130 rounded-lg overflow-hidden shadow-lg animate-scale-up">
+            <img src="/biogas-plant.png" alt="Biogas Construction" className="w-full h-full object-cover" />
           </div>
         </div>
       </section>
@@ -30,7 +30,7 @@ export default function BiogasPage() {
             <div className="animate-slide-in-left">
               <h2 className="text-3xl font-bold text-foreground mb-6">Our Expertise</h2>
               <p className="text-muted-foreground mb-4 leading-relaxed">
-                BuildTech specializes in designing and constructing cutting-edge biogas facilities that convert organic
+                Jawatech specializes in designing and constructing cutting-edge biogas facilities that convert organic
                 waste into renewable energy. Our team combines engineering excellence with environmental responsibility.
               </p>
               <p className="text-muted-foreground leading-relaxed">
@@ -64,13 +64,13 @@ export default function BiogasPage() {
             <h2 className="text-3xl font-bold text-foreground mb-8 text-center">Recent Projects</h2>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
               {[
-                { name: "Agricultural Biogas Plant", location: "Central Valley", capacity: "500 kW" },
-                { name: "Municipal Waste Facility", location: "Metro Area", capacity: "2 MW" },
-                { name: "Industrial Biogas System", location: "Industrial Zone", capacity: "1.5 MW" },
+                { name: "Agricultural 8m³ Biogas Plant", location: "Engineer kwa deef", capacity: "24m³ plant" },
+                { name: "A 48m³ biogas plant", location: "Kisii High School", capacity: "48m³" },
+                { name: "Home 12m³ Domestic Biodigester", location: "Nakuru", capacity: "12m³ pit" },
               ].map((project, i) => (
                 <div key={i} className="bg-card border border-border rounded-lg p-6 hover:shadow-lg transition-shadow">
                   <img
-                    src="/biogas-plant.jpg"
+                    src="/biogasflame.png"
                     alt={project.name}
                     className="w-full h-48 object-cover rounded-lg mb-4"
                   />
@@ -94,11 +94,11 @@ export default function BiogasPage() {
                 <p className="text-foreground font-medium">Biogas Facilities Built</p>
               </div>
               <div>
-                <div className="text-4xl font-bold text-primary mb-2">2,500 MW</div>
+                <div className="text-4xl font-bold text-primary mb-2">2,500 plants</div>
                 <p className="text-foreground font-medium">Total Capacity Installed</p>
               </div>
               <div>
-                <div className="text-4xl font-bold text-primary mb-2">98%</div>
+                <div className="text-4xl font-bold text-primary mb-2">99%</div>
                 <p className="text-foreground font-medium">Client Satisfaction</p>
               </div>
             </div>
@@ -110,14 +110,14 @@ export default function BiogasPage() {
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
               {[
                 {
-                  author: "John Smith",
-                  company: "Green Agriculture Inc",
-                  text: "BuildTech transformed our agricultural waste into a valuable energy source. The facility operates flawlessly.",
+                  author: "peter kimani",
+                  company: "Muki Sacco",
+                  text: "JawaTech transformed our farmers lives by building parmanent biogas plants and we have seen its productivity even in the gardens due to the biogas slury.",
                 },
                 {
-                  author: "Emma Davis",
-                  company: "Eco Solutions",
-                  text: "Professional team, excellent design, and outstanding support. Our biogas plant exceeded all expectations.",
+                  author: "John Kiriru",
+                  company: "Farmer",
+                  text: "Professional team, excellent design, and outstanding one year warranty. Our biogas plant exceeded all expectations.",
                 },
               ].map((testimonial, i) => (
                 <div key={i} className="bg-secondary/30 border border-border rounded-lg p-6">
