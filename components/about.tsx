@@ -42,7 +42,7 @@ export default function About() {
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center mb-16">
           <div className="animate-slide-in-left">
-            <img src="/professional-engineering-team-discussing-blueprint.jpg" alt="Team" className="rounded-lg shadow-lg" />
+            <img src="/houseconstruction.png " alt="Team" className="rounded-lg shadow-lg" />
           </div>
 
           <div className="animate-slide-in-right">

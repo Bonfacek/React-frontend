@@ -1,7 +1,7 @@
 "use client"
 
 import Link from "next/link"
-import { Mail, Phone, MapPin, Linkedin, Twitter, Facebook, MessageCircle } from "lucide-react"
+import { Mail, Phone, MapPin,Twitter, Facebook, MessageCircle } from "lucide-react"
 
 export default function Footer() {
   return (
@@ -11,10 +11,10 @@ export default function Footer() {
           {/* Company Info - Updated to JawaTech */}
           <div>
             <div className="flex items-center gap-2 mb-4">
-              <div className="w-8 h-8 bg-primary-foreground rounded-lg flex items-center justify-center">
-                <span className="text-primary font-bold">JT</span>
+              <div className="w-15 h-15 bg-primary-foreground rounded-lg flex items-center justify-center overflow-hidden">
+                <span className="w-15 h-15 rounded-full"><img src="/icon.jpg" alt="JT" className="w-full h-full object-cover" /></span>
               </div>
-              <span className="font-bold text-lg">JawaTech</span>
+              <span className="font-bold text-lg height-6">JawaTech</span>
             </div>
             <p className="text-primary-foreground/80 mb-4">
               Leading provider of comprehensive engineering and construction solutions in Africa.
@@ -30,9 +30,6 @@ export default function Footer() {
               </a>
               <a href="#" className="hover:text-accent transition-colors">
                 <Facebook className="w-5 h-5" />
-              </a>
-              <a href="#" className="hover:text-accent transition-colors">
-                <Linkedin className="w-5 h-5" />
               </a>
               <a href="#" className="hover:text-accent transition-colors">
                 <Twitter className="w-5 h-5" />

@@ -1,31 +1,19 @@
-[00:00:01.654] Server  LOG      ✓ Ready in 1079ms
-[00:00:18.384] Server  LOG      ○ Compiling / ...
-[00:00:22.768] Server  WARN     ⚠ Cross origin request detected from 10.10.3.136 to /_next/* resource. In a future major version of Next.js, you will need to explicitly configure "allowedDevOrigins" in next.config to allow this.
+[00:00:01.631] Server  LOG      ✓ Ready in 1057ms
+[00:01:06.361] Server  LOG      ○ Compiling / ...
+[00:01:12.534] Server  WARN     ⚠ Cross origin request detected from involve-qualify-songs-passive.trycloudflare.com to /_next/* resource. In a future major version of Next.js, you will need to explicitly configure "allowedDevOrigins" in next.config to allow this.
 Read more: https://nextjs.org/docs/app/api-reference/config/next-config-js/allowedDevOrigins
-[00:00:22.877] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:00:23.713] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
-[00:00:23.713] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
-[00:00:23.713] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://10.10.3.136:3001/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://10.10.3.136:3001/","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1770545215963}
-[00:01:02.445] Browser WARN    Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior
-[00:01:02.445] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://10.10.3.136:3001/quote color: rgb(120, 120, 120) color: inherit {"dp":"/quote","o":"http://10.10.3.136:3001/quote","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1770545254694}
-[00:01:17.744] Browser ERROR   Error submitting quote request: {}
-[01:44:14.421] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://10.10.3.136:3001/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://10.10.3.136:3001/","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1770551446665}
-[01:45:22.315] Server  LOG      ○ Compiling /contact ...
-[01:45:25.359] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[01:45:25.791] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
-[01:45:25.791] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
-[01:45:25.791] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://10.10.3.136:3001/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://10.10.3.136:3001/","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1770551518045}
-[01:45:27.636] Browser WARN    Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior
-[01:45:27.636] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://10.10.3.136:3001/contact color: rgb(120, 120, 120) color: inherit {"dp":"/contact","o":"http://10.10.3.136:3001/contact","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1770551519887}
-[01:47:10.407] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://10.10.3.136:3001/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://10.10.3.136:3001/","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1770551622656}
-[01:53:50.058] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[01:53:50.277] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
-[01:53:50.277] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
-[01:53:50.277] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://10.10.3.136:3001/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://10.10.3.136:3001/","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1770552022531}
-[01:53:55.218] Server  LOG      ✓ Compiled in 866ms
-[01:57:11.292] Server  LOG      ✓ Compiled in 415ms
-[02:00:15.509] Server  LOG      ✓ Compiled in 358ms
-[02:00:37.439] Server  LOG      ✓ Compiled in 284ms
-[02:02:21.827] Server  LOG      ✓ Compiled in 298ms
-[02:06:04.552] Server  LOG      ✓ Compiled in 204ms
-[02:06:37.191] Server  LOG      ✓ Compiled in 246ms
+[00:01:12.929] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:01:12.929] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:01:12.929] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[00:01:12.929] Browser LOG     %c[Vercel Web Analytics]%c [pageview] https://involve-qualify-songs-passive.trycloudflare.com/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"https://involve-qualify-songs-passive.trycloudflare.com/","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1770564205840}
+[00:01:57.164] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:01:57.164] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:01:57.164] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[00:01:57.164] Browser LOG     %c[Vercel Web Analytics]%c [pageview] https://involve-qualify-songs-passive.trycloudflare.com/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"https://involve-qualify-songs-passive.trycloudflare.com/","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1770564249599}
+[00:02:30.164] Browser WARN    Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior
+[00:02:30.165] Browser LOG     %c[Vercel Web Analytics]%c [pageview] https://involve-qualify-songs-passive.trycloudflare.com/contact color: rgb(120, 120, 120) color: inherit {"dp":"/contact","o":"https://involve-qualify-songs-passive.trycloudflare.com/contact","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1770564283234}
+[00:02:39.974] Browser LOG     %c[Vercel Web Analytics]%c [pageview] https://involve-qualify-songs-passive.trycloudflare.com/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"https://involve-qualify-songs-passive.trycloudflare.com/","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1770564292952}
+[00:02:58.381] Browser LOG     %c[Vercel Web Analytics]%c [pageview] https://involve-qualify-songs-passive.trycloudflare.com/quote color: rgb(120, 120, 120) color: inherit {"dp":"/quote","o":"https://involve-qualify-songs-passive.trycloudflare.com/quote","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1770564311445}
+[00:03:19.727] Browser ERROR   Error submitting quote request: {}
+[00:06:42.952] Browser WARN    Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior
+[00:06:57.301] Browser LOG     %c[Vercel Web Analytics]%c [pageview] https://involve-qualify-songs-passive.trycloudflare.com/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"https://involve-qualify-songs-passive.trycloudflare.com/","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1770564550370}

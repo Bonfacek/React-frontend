@@ -12,27 +12,38 @@ export default function Header() {
       <nav className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4 flex items-center justify-between">
         {/* Logo */}
         <Link href="/" className="flex items-center gap-2">
-          <div className="w-10 h-10 bg-primary rounded-lg flex items-center justify-center">
-            <span className="text-primary-foreground font-bold text-lg">JT</span>
+          <div className="w-15 h-15 bg-primary rounded-lg flex items-center justify-center overflow-hidden">
+            <span className="text-primary-foreground font-bold text-lg">
+              <img 
+                src="/icon.jpg" 
+                alt="JT" 
+                className="w-15 h-15 object-cover" 
+              />
+            </span>
           </div>
           <span className="font-bold text-xl text-primary hidden sm:inline">JawaTech</span>
         </Link>
 
         {/* Simplified Desktop Navigation */}
         <div className="hidden md:flex items-center gap-8">
-          <Link href="/#home" className="text-foreground hover:text-primary transition-colors">
+          <Link href="/#home" className="text-foreground hover:text-primary transition-colors font-bold hover:underline 
+          hover:transition-transform">
             Home
           </Link>
-          <Link href="/#about" className="text-foreground hover:text-primary transition-colors">
+          <Link href="/#about" className="text-foreground hover:text-primary transition-colors font-bold hover:underline  
+          hover:transition-transform">
             About
           </Link>
-          <Link href="/#services" className="text-foreground hover:text-primary transition-colors">
+          <Link href="/#services" className="text-foreground hover:text-primary transition-colors font-bold hover:underline 
+          hover:transition-transform">
             Services
           </Link>
-          <Link href="/#experience" className="text-foreground hover:text-primary transition-colors">
+          <Link href="/#experience" className="text-foreground hover:text-primary transition-colors font-bold 
+          hover:underline hover:transition-transform">
             Experience
           </Link>
-          <Link href="/quote" className="text-foreground hover:text-primary transition-colors">
+          <Link href="/quote" className="text-foreground hover:text-primary transition-colors font-bold
+           hover:underline hover:transition-transform">
             Get Quote
           </Link>
           <Link
