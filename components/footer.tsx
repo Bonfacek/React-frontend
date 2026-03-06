@@ -112,7 +112,7 @@ export default function Footer() {
                 <span>+254 724 760 944</span>
               </a>
               <a
-                href="mailto:info@jawatech.com"
+                href="/quote"
                 className="flex items-center gap-2 text-primary-foreground/80 hover:text-accent transition-colors"
               >
                 <Mail className="w-5 h-5" />
