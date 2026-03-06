@@ -22,7 +22,7 @@ export default function Footer() {
             <div className="flex gap-4">
               <a
                 href="https://wa.me/254724760944"
-                className="hover:text-accent transition-colors"
+                className="hover:text-accent transition-colors" 
                 target="_blank"
                 rel="noopener noreferrer"
               >

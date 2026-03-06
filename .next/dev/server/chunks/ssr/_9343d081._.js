@@ -193,7 +193,7 @@ function CivilPage() {
                                         {
                                             name: "Urban Highway Expansion",
                                             location: "Metro Area",
-                                            duration: "24 months"
+                                            duration: "3 years"
                                         },
                                         {
                                             name: "Multi-Span Bridge",
@@ -209,7 +209,7 @@ function CivilPage() {
                                             className: "bg-card border border-border rounded-lg p-6 hover:shadow-lg transition-shadow",
                                             children: [
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("img", {
-                                                    src: "/civil-engineering-structure.jpg",
+                                                    src: "/bridge.png",
                                                     alt: project.name,
                                                     className: "w-full h-48 object-cover rounded-lg mb-4"
                                                 }, void 0, false, {
@@ -383,11 +383,11 @@ function CivilPage() {
                                         {
                                             author: "Michael Chen",
                                             company: "Infrastructure Authority",
-                                            text: "BuildTech delivered a complex urban highway project ahead of schedule. Their engineering team is exceptional."
+                                            text: "Jawatech delivered a complex urban highway project ahead of schedule. Their engineering team is exceptional."
                                         },
                                         {
-                                            author: "Lisa Anderson",
-                                            company: "Municipal Services",
+                                            author: "Sarah Munene",
+                                            company: "Self Employed",
                                             text: "Impressed by their attention to detail and sustainable construction practices. Highly professional team."
                                         }
                                     ].map((testimonial, i)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {

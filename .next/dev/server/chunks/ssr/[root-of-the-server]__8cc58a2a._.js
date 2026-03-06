@@ -72,25 +72,25 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$vercel$2f$
 ;
 ;
 const metadata = {
-    title: "BuildTech Engineering - Construction & Engineering Solutions",
+    title: "Jawatech Engineering - Construction & Engineering Solutions",
     description: "Expert construction and engineering services including Biogas Construction, Civil Engineering, Electrical Engineering, and Telecommunications Networks.",
-    generator: "v0.app",
+    generator: "Jawatech ",
     icons: {
         icon: [
             {
-                url: "/icon-light-32x32.png",
+                url: "/icon.jpg",
                 media: "(prefers-color-scheme: light)"
             },
             {
-                url: "/icon-dark-32x32.png",
+                url: "/icon.jpg",
                 media: "(prefers-color-scheme: dark)"
             },
             {
-                url: "/icon.svg",
-                type: "image/svg+xml"
+                url: "/icon.jpg",
+                type: "image/jpeg"
             }
         ],
-        apple: "/apple-icon.png"
+        apple: "/icon.jpg"
     }
 };
 function RootLayout({ children }) {
