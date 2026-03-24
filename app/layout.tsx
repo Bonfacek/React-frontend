@@ -11,6 +11,8 @@ export const metadata: Metadata = {
   title: "Jawatech Engineering - Construction & Engineering Solutions",
   description:
     "Expert construction and engineering services including Biogas Construction, Civil Engineering, Electrical Engineering, and Telecommunications Networks.",
+  keywords: ["engineering", "construction", "biogas", "civil engineering", "electrical engineering", "telecommunications"],
+  
   generator: "Jawatech ",
   icons: {
     icon: [

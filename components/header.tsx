@@ -152,7 +152,7 @@ function MobileNavLink({ href, setIsOpen, children }: { href: string; setIsOpen:
     <Link
       href={href}
       className="block text-foreground hover:text-primary transition-colors font-bold"
-      onClick={() => setIsOpen(false)}
+      onClick={() => setIsOpen(true)}
     >
       {children}
     </Link>
