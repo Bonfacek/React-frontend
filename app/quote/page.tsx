@@ -138,6 +138,7 @@ export default function QuotePage() {
                   value={formData.projectType}
                   onChange={handleChange}
                   required
+                  title="Project Type"
                   className="w-full px-4 py-2 border border-border rounded-lg bg-background text-foreground focus:outline-none focus:border-primary"
                 >
                   <option value="">Select a service</option>
@@ -157,6 +158,7 @@ export default function QuotePage() {
                   value={formData.timeline}
                   onChange={handleChange}
                   required
+                  title="Project Timeline"
                   className="w-full px-4 py-2 border border-border rounded-lg bg-background text-foreground focus:outline-none focus:border-primary"
                 >
                   <option value="">Select timeline</option>

@@ -9,7 +9,12 @@ const stats = [
   { number: 500, label: "Happy Clients", suffix: "+" },
 ]
 
-function CountUp({ end, duration = 2000 }) {
+type CountUpProps = {
+  end: number
+  duration?: number
+}
+
+function CountUp({ end, duration = 2000 }: CountUpProps) {
   const [count, setCount] = useState(0)
 
   useEffect(() => {
