@@ -1,9 +1,12 @@
 "use client"
 
+import { CheckCircle } from "lucide-react"
 import type React from "react"
 import Link from "next/link"
 import { useState } from "react"
 import { ArrowLeft } from "lucide-react"
+import Header from "@/components/header"
+import Footer from "@/components/footer"
 
 export default function Login() {
   const [email, setEmail] = useState("")
@@ -39,9 +42,10 @@ export default function Login() {
   }
 
   return (
-    <main className="min-h-screen bg-background pt-24 pb-12">
-      <div className="min-h-screen flex items-center justify-center bg-gradient-to-r from-primary/10 to-accent/10">
-        <div className="bg-card border border-border rounded-lg p-8 w-full max-w-md animate-fade-in-up">
+    <main className="min-h-screen bg-background ">
+      <Header />
+      <div className="min-h-screen flex items-center justify-center bg-gradient-to-r from-primary/10 to-accent/80">
+        <div className=" border-border rounded-lg w-full p-12 px-8 max-w-md animate-fade-in-up">
           <Link href="/" className="inline-flex items-center gap-2 text-primary hover:text-primary/80 mb-8">
             <ArrowLeft className="w-5 h-5" />
             Back to Home
@@ -85,7 +89,7 @@ export default function Login() {
               {loading ? "Logging in..." : "Login"}
             </button>
           </form>
-          <p className="text-sm text-muted-foreground mt-4 text-center">
+          <p className="text-sm text-muted-foreground mt-4 text-center font-bold">
             Don't have an account?{" "}
             <Link href="/signup" className="text-primary hover:text-primary/80 font-medium">
               Sign up
@@ -93,6 +97,7 @@ export default function Login() {
           </p>
         </div>
       </div>
+      <Footer />
     </main>
   )
 }

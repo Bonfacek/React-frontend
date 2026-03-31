@@ -4,6 +4,8 @@ import type React from "react"
 import Link from "next/link"
 import { useState } from "react"
 import { ArrowLeft } from "lucide-react"
+import Header from "@/components/header"
+import Footer from "@/components/footer"
 
 // Social Icons as inline SVGs to avoid extra dependencies
 function GoogleIcon() {
@@ -35,13 +37,12 @@ function AppleIcon() {
 
 function Divider() {
   return (
-    <div className="relative my-6">
-      <div className="absolute inset-0 flex items-center">
-        <div className="w-full border-t border-border" />
-      </div>
+    <div className="relative my-6 flex-row">
+          
       <div className="relative flex justify-center text-xs uppercase">
-        <span className="bg-card px-3 text-muted-foreground tracking-widest">or continue with email</span>
+        <span className=" px-3 text-muted-foreground tracking-widest">or continue with email</span>
       </div>
+     
     </div>
   )
 }
@@ -98,9 +99,10 @@ export default function Register() {
   }
 
   return (
-    <main className="min-h-screen bg-background pt-24 pb-12">
-      <div className="min-h-screen flex items-center justify-center bg-gradient-to-r from-primary/10 to-accent/10">
-        <div className="bg-card border border-border rounded-lg p-8 w-full max-w-md animate-fade-in-up">
+    <main className="min-h-screen bg-background ">
+      <Header />
+      <div className="min-h-screen flex items-center justify-center bg-gradient-to-r from-primary/10 to-accent/90">
+        <div className="p-8 w-full max-w-md animate-fade-in-up">
 
           {/* Back Button */}
           <Link href="/" className="inline-flex items-center gap-2 text-primary hover:text-primary/80 mb-8">
@@ -109,8 +111,7 @@ export default function Register() {
           </Link>
 
           <h2 className="text-2xl font-bold text-foreground mb-2 text-center">Create an Account</h2>
-          <p className="text-sm text-muted-foreground text-center mb-6">Join JawaTech today</p>
-
+         
           {/* Social Auth Buttons */}
           <div className="space-y-3">
             <button
@@ -156,7 +157,7 @@ export default function Register() {
                 onChange={(e) => setUsername(e.target.value)}
                 required
                 placeholder="johndoe"
-                className="w-full px-4 py-2 border border-border rounded-lg focus:outline-none focus:ring-2 focus:ring-primary/50 transition-colors bg-background"
+                className="w-full px-4 py-2 border border-border rounded-lg focus:outline-none focus:ring-2 focus:ring-primary/50 transition-colors "
               />
             </div>
 
@@ -171,7 +172,7 @@ export default function Register() {
                 onChange={(e) => setEmail(e.target.value)}
                 required
                 placeholder="john@example.com"
-                className="w-full px-4 py-2 border border-border rounded-lg focus:outline-none focus:ring-2 focus:ring-primary/50 transition-colors bg-background"
+                className="w-full px-4 py-2 border border-border rounded-lg focus:outline-none focus:ring-2 focus:ring-primary/50 transition-colors "
               />
             </div>
 
@@ -186,7 +187,7 @@ export default function Register() {
                 onChange={(e) => setPassword(e.target.value)}
                 required
                 placeholder="Min. 8 characters"
-                className="w-full px-4 py-2 border border-border rounded-lg focus:outline-none focus:ring-2 focus:ring-primary/50 transition-colors bg-background"
+                className="w-full px-4 py-2 border border-border rounded-lg focus:outline-none focus:ring-2 focus:ring-primary/50 transition-colors "
               />
             </div>
 
@@ -201,7 +202,7 @@ export default function Register() {
                 onChange={(e) => setConfirm(e.target.value)}
                 required
                 placeholder="Repeat your password"
-                className="w-full px-4 py-2 border border-border rounded-lg focus:outline-none focus:ring-2 focus:ring-primary/50 transition-colors bg-background"
+                className="w-full px-4 py-2 border border-border rounded-lg focus:outline-none focus:ring-2 focus:ring-primary/50 transition-colors "
               />
             </div>
 
@@ -226,6 +227,7 @@ export default function Register() {
           </p>
         </div>
       </div>
+      <Footer />
     </main>
   )
 }
