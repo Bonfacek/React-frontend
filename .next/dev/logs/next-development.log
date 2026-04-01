@@ -6262,3 +6262,1691 @@ Import trace:
 [02:09:37.253] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
 [02:09:37.253] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
 [02:09:37.253] Browser LOG     %c[Vercel Web Analytics]%c [view] http://10.10.2.217:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://10.10.2.217:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1775078080267} /_vercel/insights/view
+[03:09:03.730] Server  WARN     ⚠ [next]/internal/font/google/geist_9e050971.module.css
+Error while requesting resource
+There was an issue establishing a connection while requesting https://fonts.googleapis.com/css2?family=Geist:wght@100..900&display=swap
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/geist_9e050971.module.css
+    [next]/internal/font/google/geist_9e050971.js
+    ./app/layout.tsx
+
+
+[03:09:03.734] Server  WARN     ⚠ [next]/internal/font/google/geist_mono_1ef7f99.module.css
+Error while requesting resource
+There was an issue establishing a connection while requesting https://fonts.googleapis.com/css2?family=Geist+Mono:wght@100..900&display=swap
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/geist_mono_1ef7f99.module.css
+    [next]/internal/font/google/geist_mono_1ef7f99.js
+    ./app/layout.tsx
+
+
+[03:09:03.735] Server  WARN     ⚠ [next]/internal/font/google/geist_9e050971.module.css
+next/font: warning:
+Failed to download `Geist` from Google Fonts. Using fallback font instead.
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/geist_9e050971.module.css
+    [next]/internal/font/google/geist_9e050971.js
+    ./app/layout.tsx
+
+
+[03:09:03.736] Server  WARN     ⚠ [next]/internal/font/google/geist_mono_1ef7f99.module.css
+next/font: warning:
+Failed to download `Geist Mono` from Google Fonts. Using fallback font instead.
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/geist_mono_1ef7f99.module.css
+    [next]/internal/font/google/geist_mono_1ef7f99.js
+    ./app/layout.tsx
+
+
+[03:09:04.808] Server  WARN     ⚠ Unsupported metadata colorScheme is configured in metadata export in /services/electrical. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[03:09:05.208] Browser WARN    Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior
+[03:09:05.208] Browser LOG     %c[Vercel Web Analytics]%c [view] http://10.10.2.217:3000/services/electrical color: rgb(120, 120, 120) color: inherit {"dp":"/services/electrical","o":"http://10.10.2.217:3000/services/electrical","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1775081648220} /_vercel/insights/view
+[03:09:21.370] Server  WARN     ⚠ [next]/internal/font/google/geist_9e050971.module.css
+Error while requesting resource
+There was an issue establishing a connection while requesting https://fonts.googleapis.com/css2?family=Geist:wght@100..900&display=swap
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/geist_9e050971.module.css
+    [next]/internal/font/google/geist_9e050971.js
+    ./app/layout.tsx
+
+
+[03:09:21.372] Server  WARN     ⚠ [next]/internal/font/google/geist_mono_1ef7f99.module.css
+Error while requesting resource
+There was an issue establishing a connection while requesting https://fonts.googleapis.com/css2?family=Geist+Mono:wght@100..900&display=swap
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/geist_mono_1ef7f99.module.css
+    [next]/internal/font/google/geist_mono_1ef7f99.js
+    ./app/layout.tsx
+
+
+[03:09:21.375] Server  WARN     ⚠ [next]/internal/font/google/geist_9e050971.module.css
+next/font: warning:
+Failed to download `Geist` from Google Fonts. Using fallback font instead.
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/geist_9e050971.module.css
+    [next]/internal/font/google/geist_9e050971.js
+    ./app/layout.tsx
+
+
+[03:09:21.378] Server  WARN     ⚠ [next]/internal/font/google/geist_mono_1ef7f99.module.css
+next/font: warning:
+Failed to download `Geist Mono` from Google Fonts. Using fallback font instead.
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/geist_mono_1ef7f99.module.css
+    [next]/internal/font/google/geist_mono_1ef7f99.js
+    ./app/layout.tsx
+
+
+[03:09:21.428] Server  WARN     ⚠ Unsupported metadata colorScheme is configured in metadata export in /login. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[03:09:21.661] Browser LOG     %c[Vercel Web Analytics]%c [view] http://10.10.2.217:3000/login color: rgb(120, 120, 120) color: inherit {"dp":"/login","o":"http://10.10.2.217:3000/login","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1775081664674} /_vercel/insights/view
+[03:09:25.857] Server  WARN     ⚠ [next]/internal/font/google/geist_9e050971.module.css
+Error while requesting resource
+There was an issue establishing a connection while requesting https://fonts.googleapis.com/css2?family=Geist:wght@100..900&display=swap
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/geist_9e050971.module.css
+    [next]/internal/font/google/geist_9e050971.js
+    ./app/layout.tsx
+
+
+[03:09:25.857] Server  WARN     ⚠ [next]/internal/font/google/geist_mono_1ef7f99.module.css
+Error while requesting resource
+There was an issue establishing a connection while requesting https://fonts.googleapis.com/css2?family=Geist+Mono:wght@100..900&display=swap
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/geist_mono_1ef7f99.module.css
+    [next]/internal/font/google/geist_mono_1ef7f99.js
+    ./app/layout.tsx
+
+
+[03:09:25.858] Server  WARN     ⚠ [next]/internal/font/google/geist_9e050971.module.css
+next/font: warning:
+Failed to download `Geist` from Google Fonts. Using fallback font instead.
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/geist_9e050971.module.css
+    [next]/internal/font/google/geist_9e050971.js
+    ./app/layout.tsx
+
+
+[03:09:25.858] Server  WARN     ⚠ [next]/internal/font/google/geist_mono_1ef7f99.module.css
+next/font: warning:
+Failed to download `Geist Mono` from Google Fonts. Using fallback font instead.
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/geist_mono_1ef7f99.module.css
+    [next]/internal/font/google/geist_mono_1ef7f99.js
+    ./app/layout.tsx
+
+
+[03:09:26.098] Server  WARN     ⚠ Unsupported metadata colorScheme is configured in metadata export in /signup. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[03:09:26.382] Browser LOG     %c[Vercel Web Analytics]%c [view] http://10.10.2.217:3000/signup color: rgb(120, 120, 120) color: inherit {"dp":"/signup","o":"http://10.10.2.217:3000/signup","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1775081669398} /_vercel/insights/view
+[03:09:31.564] Server  WARN     ⚠ [next]/internal/font/google/geist_9e050971.module.css
+Error while requesting resource
+There was an issue establishing a connection while requesting https://fonts.googleapis.com/css2?family=Geist:wght@100..900&display=swap
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/geist_9e050971.module.css
+    [next]/internal/font/google/geist_9e050971.js
+    ./app/layout.tsx
+
+
+[03:09:31.565] Server  WARN     ⚠ [next]/internal/font/google/geist_mono_1ef7f99.module.css
+Error while requesting resource
+There was an issue establishing a connection while requesting https://fonts.googleapis.com/css2?family=Geist+Mono:wght@100..900&display=swap
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/geist_mono_1ef7f99.module.css
+    [next]/internal/font/google/geist_mono_1ef7f99.js
+    ./app/layout.tsx
+
+
+[03:09:31.567] Server  WARN     ⚠ [next]/internal/font/google/geist_9e050971.module.css
+next/font: warning:
+Failed to download `Geist` from Google Fonts. Using fallback font instead.
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/geist_9e050971.module.css
+    [next]/internal/font/google/geist_9e050971.js
+    ./app/layout.tsx
+
+
+[03:09:31.568] Server  WARN     ⚠ [next]/internal/font/google/geist_mono_1ef7f99.module.css
+next/font: warning:
+Failed to download `Geist Mono` from Google Fonts. Using fallback font instead.
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/geist_mono_1ef7f99.module.css
+    [next]/internal/font/google/geist_mono_1ef7f99.js
+    ./app/layout.tsx
+
+
+[03:09:31.621] Server  WARN     ⚠ Unsupported metadata colorScheme is configured in metadata export in /. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[03:09:31.899] Browser LOG     %c[Vercel Web Analytics]%c [view] http://10.10.2.217:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://10.10.2.217:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1775081674906} /_vercel/insights/view
+[03:11:16.596] Server  WARN     ⚠ [next]/internal/font/google/geist_9e050971.module.css
+Error while requesting resource
+There was an issue establishing a connection while requesting https://fonts.googleapis.com/css2?family=Geist:wght@100..900&display=swap
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/geist_9e050971.module.css
+    [next]/internal/font/google/geist_9e050971.js
+    ./app/layout.tsx
+
+
+[03:11:16.597] Server  WARN     ⚠ [next]/internal/font/google/geist_mono_1ef7f99.module.css
+Error while requesting resource
+There was an issue establishing a connection while requesting https://fonts.googleapis.com/css2?family=Geist+Mono:wght@100..900&display=swap
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/geist_mono_1ef7f99.module.css
+    [next]/internal/font/google/geist_mono_1ef7f99.js
+    ./app/layout.tsx
+
+
+[03:11:16.598] Server  WARN     ⚠ [next]/internal/font/google/geist_9e050971.module.css
+next/font: warning:
+Failed to download `Geist` from Google Fonts. Using fallback font instead.
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/geist_9e050971.module.css
+    [next]/internal/font/google/geist_9e050971.js
+    ./app/layout.tsx
+
+
+[03:11:16.598] Server  WARN     ⚠ [next]/internal/font/google/geist_mono_1ef7f99.module.css
+next/font: warning:
+Failed to download `Geist Mono` from Google Fonts. Using fallback font instead.
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/geist_mono_1ef7f99.module.css
+    [next]/internal/font/google/geist_mono_1ef7f99.js
+    ./app/layout.tsx
+
+
+[03:11:16.635] Server  WARN     ⚠ Unsupported metadata colorScheme is configured in metadata export in /login. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[03:11:16.813] Browser LOG     %c[Vercel Web Analytics]%c [view] http://10.10.2.217:3000/login color: rgb(120, 120, 120) color: inherit {"dp":"/login","o":"http://10.10.2.217:3000/login","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1775081779830} /_vercel/insights/view
+[03:11:20.364] Server  WARN     ⚠ [next]/internal/font/google/geist_9e050971.module.css
+Error while requesting resource
+There was an issue establishing a connection while requesting https://fonts.googleapis.com/css2?family=Geist:wght@100..900&display=swap
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/geist_9e050971.module.css
+    [next]/internal/font/google/geist_9e050971.js
+    ./app/layout.tsx
+
+
+[03:11:20.365] Server  WARN     ⚠ [next]/internal/font/google/geist_mono_1ef7f99.module.css
+Error while requesting resource
+There was an issue establishing a connection while requesting https://fonts.googleapis.com/css2?family=Geist+Mono:wght@100..900&display=swap
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/geist_mono_1ef7f99.module.css
+    [next]/internal/font/google/geist_mono_1ef7f99.js
+    ./app/layout.tsx
+
+
+[03:11:20.366] Server  WARN     ⚠ [next]/internal/font/google/geist_9e050971.module.css
+next/font: warning:
+Failed to download `Geist` from Google Fonts. Using fallback font instead.
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/geist_9e050971.module.css
+    [next]/internal/font/google/geist_9e050971.js
+    ./app/layout.tsx
+
+
+[03:11:20.366] Server  WARN     ⚠ [next]/internal/font/google/geist_mono_1ef7f99.module.css
+next/font: warning:
+Failed to download `Geist Mono` from Google Fonts. Using fallback font instead.
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/geist_mono_1ef7f99.module.css
+    [next]/internal/font/google/geist_mono_1ef7f99.js
+    ./app/layout.tsx
+
+
+[03:11:20.403] Server  WARN     ⚠ Unsupported metadata colorScheme is configured in metadata export in /. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[03:11:20.628] Browser LOG     %c[Vercel Web Analytics]%c [view] http://10.10.2.217:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://10.10.2.217:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1775081783629} /_vercel/insights/view
+[03:11:27.508] Server  WARN     ⚠ [next]/internal/font/google/geist_9e050971.module.css
+Error while requesting resource
+There was an issue establishing a connection while requesting https://fonts.googleapis.com/css2?family=Geist:wght@100..900&display=swap
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/geist_9e050971.module.css
+    [next]/internal/font/google/geist_9e050971.js
+    ./app/layout.tsx
+
+
+[03:11:27.509] Server  WARN     ⚠ [next]/internal/font/google/geist_mono_1ef7f99.module.css
+Error while requesting resource
+There was an issue establishing a connection while requesting https://fonts.googleapis.com/css2?family=Geist+Mono:wght@100..900&display=swap
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/geist_mono_1ef7f99.module.css
+    [next]/internal/font/google/geist_mono_1ef7f99.js
+    ./app/layout.tsx
+
+
+[03:11:27.510] Server  WARN     ⚠ [next]/internal/font/google/geist_9e050971.module.css
+next/font: warning:
+Failed to download `Geist` from Google Fonts. Using fallback font instead.
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/geist_9e050971.module.css
+    [next]/internal/font/google/geist_9e050971.js
+    ./app/layout.tsx
+
+
+[03:11:27.510] Server  WARN     ⚠ [next]/internal/font/google/geist_mono_1ef7f99.module.css
+next/font: warning:
+Failed to download `Geist Mono` from Google Fonts. Using fallback font instead.
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/geist_mono_1ef7f99.module.css
+    [next]/internal/font/google/geist_mono_1ef7f99.js
+    ./app/layout.tsx
+
+
+[03:11:27.549] Server  WARN     ⚠ Unsupported metadata colorScheme is configured in metadata export in /login. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[03:11:27.758] Browser LOG     %c[Vercel Web Analytics]%c [view] http://10.10.2.217:3000/login color: rgb(120, 120, 120) color: inherit {"dp":"/login","o":"http://10.10.2.217:3000/login","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1775081790767} /_vercel/insights/view
+[03:11:29.719] Server  WARN     ⚠ [next]/internal/font/google/geist_9e050971.module.css
+Error while requesting resource
+There was an issue establishing a connection while requesting https://fonts.googleapis.com/css2?family=Geist:wght@100..900&display=swap
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/geist_9e050971.module.css
+    [next]/internal/font/google/geist_9e050971.js
+    ./app/layout.tsx
+
+
+[03:11:29.719] Server  WARN     ⚠ [next]/internal/font/google/geist_mono_1ef7f99.module.css
+Error while requesting resource
+There was an issue establishing a connection while requesting https://fonts.googleapis.com/css2?family=Geist+Mono:wght@100..900&display=swap
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/geist_mono_1ef7f99.module.css
+    [next]/internal/font/google/geist_mono_1ef7f99.js
+    ./app/layout.tsx
+
+
+[03:11:29.720] Server  WARN     ⚠ [next]/internal/font/google/geist_9e050971.module.css
+next/font: warning:
+Failed to download `Geist` from Google Fonts. Using fallback font instead.
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/geist_9e050971.module.css
+    [next]/internal/font/google/geist_9e050971.js
+    ./app/layout.tsx
+
+
+[03:11:29.721] Server  WARN     ⚠ [next]/internal/font/google/geist_mono_1ef7f99.module.css
+next/font: warning:
+Failed to download `Geist Mono` from Google Fonts. Using fallback font instead.
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/geist_mono_1ef7f99.module.css
+    [next]/internal/font/google/geist_mono_1ef7f99.js
+    ./app/layout.tsx
+
+
+[03:11:29.755] Server  WARN     ⚠ Unsupported metadata colorScheme is configured in metadata export in /. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[03:11:29.966] Browser LOG     %c[Vercel Web Analytics]%c [view] http://10.10.2.217:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://10.10.2.217:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1775081792976} /_vercel/insights/view
+[03:11:32.336] Server  WARN     ⚠ [next]/internal/font/google/geist_9e050971.module.css
+Error while requesting resource
+There was an issue establishing a connection while requesting https://fonts.googleapis.com/css2?family=Geist:wght@100..900&display=swap
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/geist_9e050971.module.css
+    [next]/internal/font/google/geist_9e050971.js
+    ./app/layout.tsx
+
+
+[03:11:32.337] Server  WARN     ⚠ [next]/internal/font/google/geist_mono_1ef7f99.module.css
+Error while requesting resource
+There was an issue establishing a connection while requesting https://fonts.googleapis.com/css2?family=Geist+Mono:wght@100..900&display=swap
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/geist_mono_1ef7f99.module.css
+    [next]/internal/font/google/geist_mono_1ef7f99.js
+    ./app/layout.tsx
+
+
+[03:11:32.338] Server  WARN     ⚠ [next]/internal/font/google/geist_9e050971.module.css
+next/font: warning:
+Failed to download `Geist` from Google Fonts. Using fallback font instead.
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/geist_9e050971.module.css
+    [next]/internal/font/google/geist_9e050971.js
+    ./app/layout.tsx
+
+
+[03:11:32.339] Server  WARN     ⚠ [next]/internal/font/google/geist_mono_1ef7f99.module.css
+next/font: warning:
+Failed to download `Geist Mono` from Google Fonts. Using fallback font instead.
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/geist_mono_1ef7f99.module.css
+    [next]/internal/font/google/geist_mono_1ef7f99.js
+    ./app/layout.tsx
+
+
+[03:11:32.382] Server  WARN     ⚠ Unsupported metadata colorScheme is configured in metadata export in /login. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[03:11:32.556] Browser LOG     %c[Vercel Web Analytics]%c [view] http://10.10.2.217:3000/login color: rgb(120, 120, 120) color: inherit {"dp":"/login","o":"http://10.10.2.217:3000/login","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1775081795572} /_vercel/insights/view
+[03:11:34.702] Server  WARN     ⚠ [next]/internal/font/google/geist_9e050971.module.css
+Error while requesting resource
+There was an issue establishing a connection while requesting https://fonts.googleapis.com/css2?family=Geist:wght@100..900&display=swap
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/geist_9e050971.module.css
+    [next]/internal/font/google/geist_9e050971.js
+    ./app/layout.tsx
+
+
+[03:11:34.702] Server  WARN     ⚠ [next]/internal/font/google/geist_mono_1ef7f99.module.css
+Error while requesting resource
+There was an issue establishing a connection while requesting https://fonts.googleapis.com/css2?family=Geist+Mono:wght@100..900&display=swap
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/geist_mono_1ef7f99.module.css
+    [next]/internal/font/google/geist_mono_1ef7f99.js
+    ./app/layout.tsx
+
+
+[03:11:34.703] Server  WARN     ⚠ [next]/internal/font/google/geist_9e050971.module.css
+next/font: warning:
+Failed to download `Geist` from Google Fonts. Using fallback font instead.
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/geist_9e050971.module.css
+    [next]/internal/font/google/geist_9e050971.js
+    ./app/layout.tsx
+
+
+[03:11:34.704] Server  WARN     ⚠ [next]/internal/font/google/geist_mono_1ef7f99.module.css
+next/font: warning:
+Failed to download `Geist Mono` from Google Fonts. Using fallback font instead.
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/geist_mono_1ef7f99.module.css
+    [next]/internal/font/google/geist_mono_1ef7f99.js
+    ./app/layout.tsx
+
+
+[03:11:34.739] Server  WARN     ⚠ Unsupported metadata colorScheme is configured in metadata export in /. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[03:11:34.927] Browser LOG     %c[Vercel Web Analytics]%c [view] http://10.10.2.217:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://10.10.2.217:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1775081797942} /_vercel/insights/view
+[03:11:46.869] Server  WARN     ⚠ [next]/internal/font/google/geist_9e050971.module.css
+Error while requesting resource
+There was an issue establishing a connection while requesting https://fonts.googleapis.com/css2?family=Geist:wght@100..900&display=swap
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/geist_9e050971.module.css
+    [next]/internal/font/google/geist_9e050971.js
+    ./app/layout.tsx
+
+
+[03:11:46.870] Server  WARN     ⚠ [next]/internal/font/google/geist_mono_1ef7f99.module.css
+Error while requesting resource
+There was an issue establishing a connection while requesting https://fonts.googleapis.com/css2?family=Geist+Mono:wght@100..900&display=swap
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/geist_mono_1ef7f99.module.css
+    [next]/internal/font/google/geist_mono_1ef7f99.js
+    ./app/layout.tsx
+
+
+[03:11:46.870] Server  WARN     ⚠ [next]/internal/font/google/geist_9e050971.module.css
+next/font: warning:
+Failed to download `Geist` from Google Fonts. Using fallback font instead.
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/geist_9e050971.module.css
+    [next]/internal/font/google/geist_9e050971.js
+    ./app/layout.tsx
+
+
+[03:11:46.872] Server  WARN     ⚠ [next]/internal/font/google/geist_mono_1ef7f99.module.css
+next/font: warning:
+Failed to download `Geist Mono` from Google Fonts. Using fallback font instead.
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/geist_mono_1ef7f99.module.css
+    [next]/internal/font/google/geist_mono_1ef7f99.js
+    ./app/layout.tsx
+
+
+[03:11:46.910] Server  WARN     ⚠ Unsupported metadata colorScheme is configured in metadata export in /login. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[03:11:47.083] Browser LOG     %c[Vercel Web Analytics]%c [view] http://10.10.2.217:3000/login color: rgb(120, 120, 120) color: inherit {"dp":"/login","o":"http://10.10.2.217:3000/login","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1775081810099} /_vercel/insights/view
+[03:11:50.362] Server  WARN     ⚠ [next]/internal/font/google/geist_9e050971.module.css
+Error while requesting resource
+There was an issue establishing a connection while requesting https://fonts.googleapis.com/css2?family=Geist:wght@100..900&display=swap
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/geist_9e050971.module.css
+    [next]/internal/font/google/geist_9e050971.js
+    ./app/layout.tsx
+
+
+[03:11:50.362] Server  WARN     ⚠ [next]/internal/font/google/geist_mono_1ef7f99.module.css
+Error while requesting resource
+There was an issue establishing a connection while requesting https://fonts.googleapis.com/css2?family=Geist+Mono:wght@100..900&display=swap
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/geist_mono_1ef7f99.module.css
+    [next]/internal/font/google/geist_mono_1ef7f99.js
+    ./app/layout.tsx
+
+
+[03:11:50.363] Server  WARN     ⚠ [next]/internal/font/google/geist_9e050971.module.css
+next/font: warning:
+Failed to download `Geist` from Google Fonts. Using fallback font instead.
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/geist_9e050971.module.css
+    [next]/internal/font/google/geist_9e050971.js
+    ./app/layout.tsx
+
+
+[03:11:50.364] Server  WARN     ⚠ [next]/internal/font/google/geist_mono_1ef7f99.module.css
+next/font: warning:
+Failed to download `Geist Mono` from Google Fonts. Using fallback font instead.
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/geist_mono_1ef7f99.module.css
+    [next]/internal/font/google/geist_mono_1ef7f99.js
+    ./app/layout.tsx
+
+
+[03:11:50.396] Server  WARN     ⚠ Unsupported metadata colorScheme is configured in metadata export in /. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[03:11:50.586] Browser LOG     %c[Vercel Web Analytics]%c [view] http://10.10.2.217:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://10.10.2.217:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1775081813601} /_vercel/insights/view
+[03:11:51.813] Server  WARN     ⚠ [next]/internal/font/google/geist_9e050971.module.css
+Error while requesting resource
+There was an issue establishing a connection while requesting https://fonts.googleapis.com/css2?family=Geist:wght@100..900&display=swap
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/geist_9e050971.module.css
+    [next]/internal/font/google/geist_9e050971.js
+    ./app/layout.tsx
+
+
+[03:11:51.814] Server  WARN     ⚠ [next]/internal/font/google/geist_mono_1ef7f99.module.css
+Error while requesting resource
+There was an issue establishing a connection while requesting https://fonts.googleapis.com/css2?family=Geist+Mono:wght@100..900&display=swap
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/geist_mono_1ef7f99.module.css
+    [next]/internal/font/google/geist_mono_1ef7f99.js
+    ./app/layout.tsx
+
+
+[03:11:51.814] Server  WARN     ⚠ [next]/internal/font/google/geist_9e050971.module.css
+next/font: warning:
+Failed to download `Geist` from Google Fonts. Using fallback font instead.
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/geist_9e050971.module.css
+    [next]/internal/font/google/geist_9e050971.js
+    ./app/layout.tsx
+
+
+[03:11:51.815] Server  WARN     ⚠ [next]/internal/font/google/geist_mono_1ef7f99.module.css
+next/font: warning:
+Failed to download `Geist Mono` from Google Fonts. Using fallback font instead.
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/geist_mono_1ef7f99.module.css
+    [next]/internal/font/google/geist_mono_1ef7f99.js
+    ./app/layout.tsx
+
+
+[03:11:51.850] Server  WARN     ⚠ Unsupported metadata colorScheme is configured in metadata export in /login. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[03:11:52.020] Browser LOG     %c[Vercel Web Analytics]%c [view] http://10.10.2.217:3000/login color: rgb(120, 120, 120) color: inherit {"dp":"/login","o":"http://10.10.2.217:3000/login","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1775081815038} /_vercel/insights/view
+[03:11:53.933] Server  WARN     ⚠ [next]/internal/font/google/geist_9e050971.module.css
+Error while requesting resource
+There was an issue establishing a connection while requesting https://fonts.googleapis.com/css2?family=Geist:wght@100..900&display=swap
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/geist_9e050971.module.css
+    [next]/internal/font/google/geist_9e050971.js
+    ./app/layout.tsx
+
+
+[03:11:53.934] Server  WARN     ⚠ [next]/internal/font/google/geist_mono_1ef7f99.module.css
+Error while requesting resource
+There was an issue establishing a connection while requesting https://fonts.googleapis.com/css2?family=Geist+Mono:wght@100..900&display=swap
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/geist_mono_1ef7f99.module.css
+    [next]/internal/font/google/geist_mono_1ef7f99.js
+    ./app/layout.tsx
+
+
+[03:11:53.934] Server  WARN     ⚠ [next]/internal/font/google/geist_9e050971.module.css
+next/font: warning:
+Failed to download `Geist` from Google Fonts. Using fallback font instead.
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/geist_9e050971.module.css
+    [next]/internal/font/google/geist_9e050971.js
+    ./app/layout.tsx
+
+
+[03:11:53.935] Server  WARN     ⚠ [next]/internal/font/google/geist_mono_1ef7f99.module.css
+next/font: warning:
+Failed to download `Geist Mono` from Google Fonts. Using fallback font instead.
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/geist_mono_1ef7f99.module.css
+    [next]/internal/font/google/geist_mono_1ef7f99.js
+    ./app/layout.tsx
+
+
+[03:11:53.961] Server  WARN     ⚠ Unsupported metadata colorScheme is configured in metadata export in /. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[03:11:54.133] Browser LOG     %c[Vercel Web Analytics]%c [view] http://10.10.2.217:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://10.10.2.217:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1775081817142} /_vercel/insights/view
+[03:12:07.363] Server  WARN     ⚠ [next]/internal/font/google/geist_9e050971.module.css
+Error while requesting resource
+There was an issue establishing a connection while requesting https://fonts.googleapis.com/css2?family=Geist:wght@100..900&display=swap
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/geist_9e050971.module.css
+    [next]/internal/font/google/geist_9e050971.js
+    ./app/layout.tsx
+
+
+[03:12:07.364] Server  WARN     ⚠ [next]/internal/font/google/geist_mono_1ef7f99.module.css
+Error while requesting resource
+There was an issue establishing a connection while requesting https://fonts.googleapis.com/css2?family=Geist+Mono:wght@100..900&display=swap
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/geist_mono_1ef7f99.module.css
+    [next]/internal/font/google/geist_mono_1ef7f99.js
+    ./app/layout.tsx
+
+
+[03:12:07.365] Server  WARN     ⚠ [next]/internal/font/google/geist_9e050971.module.css
+next/font: warning:
+Failed to download `Geist` from Google Fonts. Using fallback font instead.
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/geist_9e050971.module.css
+    [next]/internal/font/google/geist_9e050971.js
+    ./app/layout.tsx
+
+
+[03:12:07.366] Server  WARN     ⚠ [next]/internal/font/google/geist_mono_1ef7f99.module.css
+next/font: warning:
+Failed to download `Geist Mono` from Google Fonts. Using fallback font instead.
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/geist_mono_1ef7f99.module.css
+    [next]/internal/font/google/geist_mono_1ef7f99.js
+    ./app/layout.tsx
+
+
+[03:12:07.399] Server  WARN     ⚠ Unsupported metadata colorScheme is configured in metadata export in /login. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[03:12:07.548] Browser LOG     %c[Vercel Web Analytics]%c [view] http://10.10.2.217:3000/login color: rgb(120, 120, 120) color: inherit {"dp":"/login","o":"http://10.10.2.217:3000/login","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1775081830562} /_vercel/insights/view
+[03:12:09.133] Server  WARN     ⚠ [next]/internal/font/google/geist_9e050971.module.css
+Error while requesting resource
+There was an issue establishing a connection while requesting https://fonts.googleapis.com/css2?family=Geist:wght@100..900&display=swap
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/geist_9e050971.module.css
+    [next]/internal/font/google/geist_9e050971.js
+    ./app/layout.tsx
+
+
+[03:12:09.134] Server  WARN     ⚠ [next]/internal/font/google/geist_mono_1ef7f99.module.css
+Error while requesting resource
+There was an issue establishing a connection while requesting https://fonts.googleapis.com/css2?family=Geist+Mono:wght@100..900&display=swap
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/geist_mono_1ef7f99.module.css
+    [next]/internal/font/google/geist_mono_1ef7f99.js
+    ./app/layout.tsx
+
+
+[03:12:09.134] Server  WARN     ⚠ [next]/internal/font/google/geist_9e050971.module.css
+next/font: warning:
+Failed to download `Geist` from Google Fonts. Using fallback font instead.
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/geist_9e050971.module.css
+    [next]/internal/font/google/geist_9e050971.js
+    ./app/layout.tsx
+
+
+[03:12:09.135] Server  WARN     ⚠ [next]/internal/font/google/geist_mono_1ef7f99.module.css
+next/font: warning:
+Failed to download `Geist Mono` from Google Fonts. Using fallback font instead.
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/geist_mono_1ef7f99.module.css
+    [next]/internal/font/google/geist_mono_1ef7f99.js
+    ./app/layout.tsx
+
+
+[03:12:09.155] Server  WARN     ⚠ Unsupported metadata colorScheme is configured in metadata export in /. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[03:12:09.343] Browser LOG     %c[Vercel Web Analytics]%c [view] http://10.10.2.217:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://10.10.2.217:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1775081832358} /_vercel/insights/view
+[03:16:15.670] Server  WARN     ⚠ [next]/internal/font/google/geist_9e050971.module.css
+Error while requesting resource
+There was an issue establishing a connection while requesting https://fonts.googleapis.com/css2?family=Geist:wght@100..900&display=swap
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/geist_9e050971.module.css
+    [next]/internal/font/google/geist_9e050971.js
+    ./app/layout.tsx
+
+
+[03:16:15.670] Server  WARN     ⚠ [next]/internal/font/google/geist_mono_1ef7f99.module.css
+Error while requesting resource
+There was an issue establishing a connection while requesting https://fonts.googleapis.com/css2?family=Geist+Mono:wght@100..900&display=swap
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/geist_mono_1ef7f99.module.css
+    [next]/internal/font/google/geist_mono_1ef7f99.js
+    ./app/layout.tsx
+
+
+[03:16:15.671] Server  WARN     ⚠ [next]/internal/font/google/geist_9e050971.module.css
+next/font: warning:
+Failed to download `Geist` from Google Fonts. Using fallback font instead.
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/geist_9e050971.module.css
+    [next]/internal/font/google/geist_9e050971.js
+    ./app/layout.tsx
+
+
+[03:16:15.672] Server  WARN     ⚠ [next]/internal/font/google/geist_mono_1ef7f99.module.css
+next/font: warning:
+Failed to download `Geist Mono` from Google Fonts. Using fallback font instead.
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/geist_mono_1ef7f99.module.css
+    [next]/internal/font/google/geist_mono_1ef7f99.js
+    ./app/layout.tsx
+
+
+[03:16:15.708] Server  WARN     ⚠ Unsupported metadata colorScheme is configured in metadata export in /. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[03:16:23.068] Server  WARN     ⚠ [next]/internal/font/google/geist_9e050971.module.css
+Error while requesting resource
+There was an issue establishing a connection while requesting https://fonts.googleapis.com/css2?family=Geist:wght@100..900&display=swap
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/geist_9e050971.module.css
+    [next]/internal/font/google/geist_9e050971.js
+    ./app/layout.tsx
+
+
+[03:16:23.068] Server  WARN     ⚠ [next]/internal/font/google/geist_mono_1ef7f99.module.css
+Error while requesting resource
+There was an issue establishing a connection while requesting https://fonts.googleapis.com/css2?family=Geist+Mono:wght@100..900&display=swap
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/geist_mono_1ef7f99.module.css
+    [next]/internal/font/google/geist_mono_1ef7f99.js
+    ./app/layout.tsx
+
+
+[03:16:23.070] Server  WARN     ⚠ [next]/internal/font/google/geist_9e050971.module.css
+next/font: warning:
+Failed to download `Geist` from Google Fonts. Using fallback font instead.
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/geist_9e050971.module.css
+    [next]/internal/font/google/geist_9e050971.js
+    ./app/layout.tsx
+
+
+[03:16:23.071] Server  WARN     ⚠ [next]/internal/font/google/geist_mono_1ef7f99.module.css
+next/font: warning:
+Failed to download `Geist Mono` from Google Fonts. Using fallback font instead.
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/geist_mono_1ef7f99.module.css
+    [next]/internal/font/google/geist_mono_1ef7f99.js
+    ./app/layout.tsx
+
+
+[03:16:23.106] Server  WARN     ⚠ Unsupported metadata colorScheme is configured in metadata export in /. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[03:16:43.196] Server  WARN     ⚠ [next]/internal/font/google/geist_9e050971.module.css
+Error while requesting resource
+There was an issue establishing a connection while requesting https://fonts.googleapis.com/css2?family=Geist:wght@100..900&display=swap
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/geist_9e050971.module.css
+    [next]/internal/font/google/geist_9e050971.js
+    ./app/layout.tsx
+
+
+[03:16:43.196] Server  WARN     ⚠ [next]/internal/font/google/geist_mono_1ef7f99.module.css
+Error while requesting resource
+There was an issue establishing a connection while requesting https://fonts.googleapis.com/css2?family=Geist+Mono:wght@100..900&display=swap
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/geist_mono_1ef7f99.module.css
+    [next]/internal/font/google/geist_mono_1ef7f99.js
+    ./app/layout.tsx
+
+
+[03:16:43.196] Server  WARN     ⚠ [next]/internal/font/google/geist_9e050971.module.css
+next/font: warning:
+Failed to download `Geist` from Google Fonts. Using fallback font instead.
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/geist_9e050971.module.css
+    [next]/internal/font/google/geist_9e050971.js
+    ./app/layout.tsx
+
+
+[03:16:43.197] Server  WARN     ⚠ [next]/internal/font/google/geist_mono_1ef7f99.module.css
+next/font: warning:
+Failed to download `Geist Mono` from Google Fonts. Using fallback font instead.
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/geist_mono_1ef7f99.module.css
+    [next]/internal/font/google/geist_mono_1ef7f99.js
+    ./app/layout.tsx
+
+
+[03:16:43.228] Server  WARN     ⚠ Unsupported metadata colorScheme is configured in metadata export in /login. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[03:16:43.410] Browser LOG     %c[Vercel Web Analytics]%c [view] http://10.10.2.217:3000/login color: rgb(120, 120, 120) color: inherit {"dp":"/login","o":"http://10.10.2.217:3000/login","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1775082106426} /_vercel/insights/view
+[03:16:45.941] Server  WARN     ⚠ [next]/internal/font/google/geist_9e050971.module.css
+Error while requesting resource
+There was an issue establishing a connection while requesting https://fonts.googleapis.com/css2?family=Geist:wght@100..900&display=swap
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/geist_9e050971.module.css
+    [next]/internal/font/google/geist_9e050971.js
+    ./app/layout.tsx
+
+
+[03:16:45.941] Server  WARN     ⚠ [next]/internal/font/google/geist_mono_1ef7f99.module.css
+Error while requesting resource
+There was an issue establishing a connection while requesting https://fonts.googleapis.com/css2?family=Geist+Mono:wght@100..900&display=swap
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/geist_mono_1ef7f99.module.css
+    [next]/internal/font/google/geist_mono_1ef7f99.js
+    ./app/layout.tsx
+
+
+[03:16:45.943] Server  WARN     ⚠ [next]/internal/font/google/geist_9e050971.module.css
+next/font: warning:
+Failed to download `Geist` from Google Fonts. Using fallback font instead.
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/geist_9e050971.module.css
+    [next]/internal/font/google/geist_9e050971.js
+    ./app/layout.tsx
+
+
+[03:16:45.944] Server  WARN     ⚠ [next]/internal/font/google/geist_mono_1ef7f99.module.css
+next/font: warning:
+Failed to download `Geist Mono` from Google Fonts. Using fallback font instead.
+
+Import trace:
+  Server Component:
+    [next]/internal/font/google/geist_mono_1ef7f99.module.css
+    [next]/internal/font/google/geist_mono_1ef7f99.js
+    ./app/layout.tsx
+
+
+[03:16:45.978] Server  WARN     ⚠ Unsupported metadata colorScheme is configured in metadata export in /. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[03:16:46.180] Browser LOG     %c[Vercel Web Analytics]%c [view] http://10.10.2.217:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://10.10.2.217:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1775082109198} /_vercel/insights/view
+[03:39:53.773] Server  ERROR    ⨯ ./app/layout.tsx:6:1
+Module not found: Can't resolve '@/context/AuthContext'
+  4 | import { Analytics } from "@vercel/analytics/next"
+  5 | import "./globals.css"
+> 6 | import { AuthProvider } from "@/context/AuthContext"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 |
+  8 | const geist = Geist({ subsets: ["latin"] })
+  9 | const geistMono = Geist_Mono({ subsets: ["latin"] })
+
+Import map: aliased to relative './context/AuthContext' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[03:39:53.789] Server  ERROR    ⨯ ./app/layout.tsx:6:1
+Module not found: Can't resolve '@/context/AuthContext'
+  4 | import { Analytics } from "@vercel/analytics/next"
+  5 | import "./globals.css"
+> 6 | import { AuthProvider } from "@/context/AuthContext"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 |
+  8 | const geist = Geist({ subsets: ["latin"] })
+  9 | const geistMono = Geist_Mono({ subsets: ["latin"] })
+
+Import map: aliased to relative './context/AuthContext' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[03:39:53.819] Server  ERROR    ⨯ ./app/layout.tsx:6:1
+Module not found: Can't resolve '@/context/AuthContext'
+  4 | import { Analytics } from "@vercel/analytics/next"
+  5 | import "./globals.css"
+> 6 | import { AuthProvider } from "@/context/AuthContext"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 |
+  8 | const geist = Geist({ subsets: ["latin"] })
+  9 | const geistMono = Geist_Mono({ subsets: ["latin"] })
+
+Import map: aliased to relative './context/AuthContext' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[03:39:53.846] Server  ERROR    ⨯ ./app/layout.tsx:6:1
+Module not found: Can't resolve '@/context/AuthContext'
+  4 | import { Analytics } from "@vercel/analytics/next"
+  5 | import "./globals.css"
+> 6 | import { AuthProvider } from "@/context/AuthContext"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 |
+  8 | const geist = Geist({ subsets: ["latin"] })
+  9 | const geistMono = Geist_Mono({ subsets: ["latin"] })
+
+Import map: aliased to relative './context/AuthContext' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[03:39:53.889] Server  ERROR    ⨯ ./app/layout.tsx:6:1
+Module not found: Can't resolve '@/context/AuthContext'
+  4 | import { Analytics } from "@vercel/analytics/next"
+  5 | import "./globals.css"
+> 6 | import { AuthProvider } from "@/context/AuthContext"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 |
+  8 | const geist = Geist({ subsets: ["latin"] })
+  9 | const geistMono = Geist_Mono({ subsets: ["latin"] })
+
+Import map: aliased to relative './context/AuthContext' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[03:39:53.915] Server  ERROR    ⨯ ./app/layout.tsx:6:1
+Module not found: Can't resolve '@/context/AuthContext'
+  4 | import { Analytics } from "@vercel/analytics/next"
+  5 | import "./globals.css"
+> 6 | import { AuthProvider } from "@/context/AuthContext"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 |
+  8 | const geist = Geist({ subsets: ["latin"] })
+  9 | const geistMono = Geist_Mono({ subsets: ["latin"] })
+
+Import map: aliased to relative './context/AuthContext' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[03:39:53.935] Server  ERROR    ⨯ ./app/layout.tsx:6:1
+Module not found: Can't resolve '@/context/AuthContext'
+  4 | import { Analytics } from "@vercel/analytics/next"
+  5 | import "./globals.css"
+> 6 | import { AuthProvider } from "@/context/AuthContext"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 |
+  8 | const geist = Geist({ subsets: ["latin"] })
+  9 | const geistMono = Geist_Mono({ subsets: ["latin"] })
+
+Import map: aliased to relative './context/AuthContext' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[03:39:53.967] Server  ERROR    ⨯ ./app/layout.tsx:6:1
+Module not found: Can't resolve '@/context/AuthContext'
+  4 | import { Analytics } from "@vercel/analytics/next"
+  5 | import "./globals.css"
+> 6 | import { AuthProvider } from "@/context/AuthContext"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 |
+  8 | const geist = Geist({ subsets: ["latin"] })
+  9 | const geistMono = Geist_Mono({ subsets: ["latin"] })
+
+Import map: aliased to relative './context/AuthContext' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[03:39:54.024] Server  ERROR    ⨯ ./app/layout.tsx:6:1
+Module not found: Can't resolve '@/context/AuthContext'
+  4 | import { Analytics } from "@vercel/analytics/next"
+  5 | import "./globals.css"
+> 6 | import { AuthProvider } from "@/context/AuthContext"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 |
+  8 | const geist = Geist({ subsets: ["latin"] })
+  9 | const geistMono = Geist_Mono({ subsets: ["latin"] })
+
+Import map: aliased to relative './context/AuthContext' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[03:39:54.038] Server  ERROR    ⨯ ./app/layout.tsx:6:1
+Module not found: Can't resolve '@/context/AuthContext'
+  4 | import { Analytics } from "@vercel/analytics/next"
+  5 | import "./globals.css"
+> 6 | import { AuthProvider } from "@/context/AuthContext"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 |
+  8 | const geist = Geist({ subsets: ["latin"] })
+  9 | const geistMono = Geist_Mono({ subsets: ["latin"] })
+
+Import map: aliased to relative './context/AuthContext' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[03:39:54.062] Server  ERROR    ⨯ ./app/layout.tsx:6:1
+Module not found: Can't resolve '@/context/AuthContext'
+  4 | import { Analytics } from "@vercel/analytics/next"
+  5 | import "./globals.css"
+> 6 | import { AuthProvider } from "@/context/AuthContext"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 |
+  8 | const geist = Geist({ subsets: ["latin"] })
+  9 | const geistMono = Geist_Mono({ subsets: ["latin"] })
+
+Import map: aliased to relative './context/AuthContext' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[03:39:54.074] Server  ERROR    ⨯ ./app/layout.tsx:6:1
+Module not found: Can't resolve '@/context/AuthContext'
+  4 | import { Analytics } from "@vercel/analytics/next"
+  5 | import "./globals.css"
+> 6 | import { AuthProvider } from "@/context/AuthContext"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 |
+  8 | const geist = Geist({ subsets: ["latin"] })
+  9 | const geistMono = Geist_Mono({ subsets: ["latin"] })
+
+Import map: aliased to relative './context/AuthContext' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[03:39:54.091] Server  ERROR    ⨯ ./app/layout.tsx:6:1
+Module not found: Can't resolve '@/context/AuthContext'
+  4 | import { Analytics } from "@vercel/analytics/next"
+  5 | import "./globals.css"
+> 6 | import { AuthProvider } from "@/context/AuthContext"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 |
+  8 | const geist = Geist({ subsets: ["latin"] })
+  9 | const geistMono = Geist_Mono({ subsets: ["latin"] })
+
+Import map: aliased to relative './context/AuthContext' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[03:39:54.093] Server  ERROR    ⨯ ./app/layout.tsx:6:1
+Module not found: Can't resolve '@/context/AuthContext'
+  4 | import { Analytics } from "@vercel/analytics/next"
+  5 | import "./globals.css"
+> 6 | import { AuthProvider } from "@/context/AuthContext"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 |
+  8 | const geist = Geist({ subsets: ["latin"] })
+  9 | const geistMono = Geist_Mono({ subsets: ["latin"] })
+
+Import map: aliased to relative './context/AuthContext' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[03:39:54.133] Server  ERROR    ⨯ ./app/layout.tsx:6:1
+Module not found: Can't resolve '@/context/AuthContext'
+  4 | import { Analytics } from "@vercel/analytics/next"
+  5 | import "./globals.css"
+> 6 | import { AuthProvider } from "@/context/AuthContext"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 |
+  8 | const geist = Geist({ subsets: ["latin"] })
+  9 | const geistMono = Geist_Mono({ subsets: ["latin"] })
+
+Import map: aliased to relative './context/AuthContext' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[03:39:54.144] Server  ERROR    ⨯ ./app/layout.tsx:6:1
+Module not found: Can't resolve '@/context/AuthContext'
+  4 | import { Analytics } from "@vercel/analytics/next"
+  5 | import "./globals.css"
+> 6 | import { AuthProvider } from "@/context/AuthContext"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 |
+  8 | const geist = Geist({ subsets: ["latin"] })
+  9 | const geistMono = Geist_Mono({ subsets: ["latin"] })
+
+Import map: aliased to relative './context/AuthContext' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[03:39:54.160] Server  ERROR    ⨯ ./app/layout.tsx:6:1
+Module not found: Can't resolve '@/context/AuthContext'
+  4 | import { Analytics } from "@vercel/analytics/next"
+  5 | import "./globals.css"
+> 6 | import { AuthProvider } from "@/context/AuthContext"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 |
+  8 | const geist = Geist({ subsets: ["latin"] })
+  9 | const geistMono = Geist_Mono({ subsets: ["latin"] })
+
+Import map: aliased to relative './context/AuthContext' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[03:39:54.168] Server  ERROR    ⨯ ./app/layout.tsx:6:1
+Module not found: Can't resolve '@/context/AuthContext'
+  4 | import { Analytics } from "@vercel/analytics/next"
+  5 | import "./globals.css"
+> 6 | import { AuthProvider } from "@/context/AuthContext"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 |
+  8 | const geist = Geist({ subsets: ["latin"] })
+  9 | const geistMono = Geist_Mono({ subsets: ["latin"] })
+
+Import map: aliased to relative './context/AuthContext' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[03:39:54.197] Server  ERROR    ⨯ ./app/layout.tsx:6:1
+Module not found: Can't resolve '@/context/AuthContext'
+  4 | import { Analytics } from "@vercel/analytics/next"
+  5 | import "./globals.css"
+> 6 | import { AuthProvider } from "@/context/AuthContext"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 |
+  8 | const geist = Geist({ subsets: ["latin"] })
+  9 | const geistMono = Geist_Mono({ subsets: ["latin"] })
+
+Import map: aliased to relative './context/AuthContext' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[03:39:54.208] Server  ERROR    ⨯ ./app/layout.tsx:6:1
+Module not found: Can't resolve '@/context/AuthContext'
+  4 | import { Analytics } from "@vercel/analytics/next"
+  5 | import "./globals.css"
+> 6 | import { AuthProvider } from "@/context/AuthContext"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 |
+  8 | const geist = Geist({ subsets: ["latin"] })
+  9 | const geistMono = Geist_Mono({ subsets: ["latin"] })
+
+Import map: aliased to relative './context/AuthContext' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[03:39:54.258] Server  ERROR    ⨯ ./app/layout.tsx:6:1
+Module not found: Can't resolve '@/context/AuthContext'
+  4 | import { Analytics } from "@vercel/analytics/next"
+  5 | import "./globals.css"
+> 6 | import { AuthProvider } from "@/context/AuthContext"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 |
+  8 | const geist = Geist({ subsets: ["latin"] })
+  9 | const geistMono = Geist_Mono({ subsets: ["latin"] })
+
+Import map: aliased to relative './context/AuthContext' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[03:39:54.274] Server  ERROR    ⨯ ./app/layout.tsx:6:1
+Module not found: Can't resolve '@/context/AuthContext'
+  4 | import { Analytics } from "@vercel/analytics/next"
+  5 | import "./globals.css"
+> 6 | import { AuthProvider } from "@/context/AuthContext"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 |
+  8 | const geist = Geist({ subsets: ["latin"] })
+  9 | const geistMono = Geist_Mono({ subsets: ["latin"] })
+
+Import map: aliased to relative './context/AuthContext' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[03:39:54.308] Server  ERROR    ⨯ ./app/layout.tsx:6:1
+Module not found: Can't resolve '@/context/AuthContext'
+  4 | import { Analytics } from "@vercel/analytics/next"
+  5 | import "./globals.css"
+> 6 | import { AuthProvider } from "@/context/AuthContext"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 |
+  8 | const geist = Geist({ subsets: ["latin"] })
+  9 | const geistMono = Geist_Mono({ subsets: ["latin"] })
+
+Import map: aliased to relative './context/AuthContext' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[03:39:54.333] Server  ERROR    ⨯ ./app/layout.tsx:6:1
+Module not found: Can't resolve '@/context/AuthContext'
+  4 | import { Analytics } from "@vercel/analytics/next"
+  5 | import "./globals.css"
+> 6 | import { AuthProvider } from "@/context/AuthContext"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 |
+  8 | const geist = Geist({ subsets: ["latin"] })
+  9 | const geistMono = Geist_Mono({ subsets: ["latin"] })
+
+Import map: aliased to relative './context/AuthContext' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[03:39:54.354] Server  ERROR    ⨯ ./app/layout.tsx:6:1
+Module not found: Can't resolve '@/context/AuthContext'
+  4 | import { Analytics } from "@vercel/analytics/next"
+  5 | import "./globals.css"
+> 6 | import { AuthProvider } from "@/context/AuthContext"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 |
+  8 | const geist = Geist({ subsets: ["latin"] })
+  9 | const geistMono = Geist_Mono({ subsets: ["latin"] })
+
+Import map: aliased to relative './context/AuthContext' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[03:39:54.365] Server  ERROR    ⨯ ./app/layout.tsx:6:1
+Module not found: Can't resolve '@/context/AuthContext'
+  4 | import { Analytics } from "@vercel/analytics/next"
+  5 | import "./globals.css"
+> 6 | import { AuthProvider } from "@/context/AuthContext"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 |
+  8 | const geist = Geist({ subsets: ["latin"] })
+  9 | const geistMono = Geist_Mono({ subsets: ["latin"] })
+
+Import map: aliased to relative './context/AuthContext' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[03:39:54.383] Server  ERROR    ⨯ ./app/layout.tsx:6:1
+Module not found: Can't resolve '@/context/AuthContext'
+  4 | import { Analytics } from "@vercel/analytics/next"
+  5 | import "./globals.css"
+> 6 | import { AuthProvider } from "@/context/AuthContext"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 |
+  8 | const geist = Geist({ subsets: ["latin"] })
+  9 | const geistMono = Geist_Mono({ subsets: ["latin"] })
+
+Import map: aliased to relative './context/AuthContext' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[03:39:54.408] Server  ERROR    ⨯ ./app/layout.tsx:6:1
+Module not found: Can't resolve '@/context/AuthContext'
+  4 | import { Analytics } from "@vercel/analytics/next"
+  5 | import "./globals.css"
+> 6 | import { AuthProvider } from "@/context/AuthContext"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 |
+  8 | const geist = Geist({ subsets: ["latin"] })
+  9 | const geistMono = Geist_Mono({ subsets: ["latin"] })
+
+Import map: aliased to relative './context/AuthContext' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[03:39:54.417] Server  ERROR    ⨯ ./app/layout.tsx:6:1
+Module not found: Can't resolve '@/context/AuthContext'
+  4 | import { Analytics } from "@vercel/analytics/next"
+  5 | import "./globals.css"
+> 6 | import { AuthProvider } from "@/context/AuthContext"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 |
+  8 | const geist = Geist({ subsets: ["latin"] })
+  9 | const geistMono = Geist_Mono({ subsets: ["latin"] })
+
+Import map: aliased to relative './context/AuthContext' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[03:39:54.440] Server  ERROR    ⨯ ./app/layout.tsx:6:1
+Module not found: Can't resolve '@/context/AuthContext'
+  4 | import { Analytics } from "@vercel/analytics/next"
+  5 | import "./globals.css"
+> 6 | import { AuthProvider } from "@/context/AuthContext"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 |
+  8 | const geist = Geist({ subsets: ["latin"] })
+  9 | const geistMono = Geist_Mono({ subsets: ["latin"] })
+
+Import map: aliased to relative './context/AuthContext' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[03:39:54.510] Server  ERROR    ⨯ ./app/layout.tsx:6:1
+Module not found: Can't resolve '@/context/AuthContext'
+  4 | import { Analytics } from "@vercel/analytics/next"
+  5 | import "./globals.css"
+> 6 | import { AuthProvider } from "@/context/AuthContext"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 |
+  8 | const geist = Geist({ subsets: ["latin"] })
+  9 | const geistMono = Geist_Mono({ subsets: ["latin"] })
+
+Import map: aliased to relative './context/AuthContext' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[03:39:54.519] Server  ERROR    ⨯ ./app/layout.tsx:6:1
+Module not found: Can't resolve '@/context/AuthContext'
+  4 | import { Analytics } from "@vercel/analytics/next"
+  5 | import "./globals.css"
+> 6 | import { AuthProvider } from "@/context/AuthContext"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 |
+  8 | const geist = Geist({ subsets: ["latin"] })
+  9 | const geistMono = Geist_Mono({ subsets: ["latin"] })
+
+Import map: aliased to relative './context/AuthContext' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[03:39:54.540] Server  ERROR    ⨯ ./app/layout.tsx:6:1
+Module not found: Can't resolve '@/context/AuthContext'
+  4 | import { Analytics } from "@vercel/analytics/next"
+  5 | import "./globals.css"
+> 6 | import { AuthProvider } from "@/context/AuthContext"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 |
+  8 | const geist = Geist({ subsets: ["latin"] })
+  9 | const geistMono = Geist_Mono({ subsets: ["latin"] })
+
+Import map: aliased to relative './context/AuthContext' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[03:39:54.544] Server  ERROR    ⨯ ./app/layout.tsx:6:1
+Module not found: Can't resolve '@/context/AuthContext'
+  4 | import { Analytics } from "@vercel/analytics/next"
+  5 | import "./globals.css"
+> 6 | import { AuthProvider } from "@/context/AuthContext"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 |
+  8 | const geist = Geist({ subsets: ["latin"] })
+  9 | const geistMono = Geist_Mono({ subsets: ["latin"] })
+
+Import map: aliased to relative './context/AuthContext' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[03:39:54.561] Server  ERROR    ⨯ ./app/layout.tsx:6:1
+Module not found: Can't resolve '@/context/AuthContext'
+  4 | import { Analytics } from "@vercel/analytics/next"
+  5 | import "./globals.css"
+> 6 | import { AuthProvider } from "@/context/AuthContext"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 |
+  8 | const geist = Geist({ subsets: ["latin"] })
+  9 | const geistMono = Geist_Mono({ subsets: ["latin"] })
+
+Import map: aliased to relative './context/AuthContext' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[03:39:54.570] Server  ERROR    ⨯ ./app/layout.tsx:6:1
+Module not found: Can't resolve '@/context/AuthContext'
+  4 | import { Analytics } from "@vercel/analytics/next"
+  5 | import "./globals.css"
+> 6 | import { AuthProvider } from "@/context/AuthContext"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 |
+  8 | const geist = Geist({ subsets: ["latin"] })
+  9 | const geistMono = Geist_Mono({ subsets: ["latin"] })
+
+Import map: aliased to relative './context/AuthContext' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[03:39:54.582] Server  ERROR    ⨯ ./app/layout.tsx:6:1
+Module not found: Can't resolve '@/context/AuthContext'
+  4 | import { Analytics } from "@vercel/analytics/next"
+  5 | import "./globals.css"
+> 6 | import { AuthProvider } from "@/context/AuthContext"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 |
+  8 | const geist = Geist({ subsets: ["latin"] })
+  9 | const geistMono = Geist_Mono({ subsets: ["latin"] })
+
+Import map: aliased to relative './context/AuthContext' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[03:39:54.585] Server  ERROR    ⨯ ./app/layout.tsx:6:1
+Module not found: Can't resolve '@/context/AuthContext'
+  4 | import { Analytics } from "@vercel/analytics/next"
+  5 | import "./globals.css"
+> 6 | import { AuthProvider } from "@/context/AuthContext"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 |
+  8 | const geist = Geist({ subsets: ["latin"] })
+  9 | const geistMono = Geist_Mono({ subsets: ["latin"] })
+
+Import map: aliased to relative './context/AuthContext' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[03:39:54.592] Server  ERROR    ⨯ ./app/layout.tsx:6:1
+Module not found: Can't resolve '@/context/AuthContext'
+  4 | import { Analytics } from "@vercel/analytics/next"
+  5 | import "./globals.css"
+> 6 | import { AuthProvider } from "@/context/AuthContext"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 |
+  8 | const geist = Geist({ subsets: ["latin"] })
+  9 | const geistMono = Geist_Mono({ subsets: ["latin"] })
+
+Import map: aliased to relative './context/AuthContext' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[03:39:54.600] Server  ERROR    ⨯ ./app/layout.tsx:6:1
+Module not found: Can't resolve '@/context/AuthContext'
+  4 | import { Analytics } from "@vercel/analytics/next"
+  5 | import "./globals.css"
+> 6 | import { AuthProvider } from "@/context/AuthContext"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 |
+  8 | const geist = Geist({ subsets: ["latin"] })
+  9 | const geistMono = Geist_Mono({ subsets: ["latin"] })
+
+Import map: aliased to relative './context/AuthContext' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[03:39:54.605] Server  ERROR    ⨯ ./app/layout.tsx:6:1
+Module not found: Can't resolve '@/context/AuthContext'
+  4 | import { Analytics } from "@vercel/analytics/next"
+  5 | import "./globals.css"
+> 6 | import { AuthProvider } from "@/context/AuthContext"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 |
+  8 | const geist = Geist({ subsets: ["latin"] })
+  9 | const geistMono = Geist_Mono({ subsets: ["latin"] })
+
+Import map: aliased to relative './context/AuthContext' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[03:39:54.619] Server  ERROR    ⨯ ./app/layout.tsx:6:1
+Module not found: Can't resolve '@/context/AuthContext'
+  4 | import { Analytics } from "@vercel/analytics/next"
+  5 | import "./globals.css"
+> 6 | import { AuthProvider } from "@/context/AuthContext"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 |
+  8 | const geist = Geist({ subsets: ["latin"] })
+  9 | const geistMono = Geist_Mono({ subsets: ["latin"] })
+
+Import map: aliased to relative './context/AuthContext' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[03:39:54.666] Server  ERROR    ⨯ ./app/layout.tsx:6:1
+Module not found: Can't resolve '@/context/AuthContext'
+  4 | import { Analytics } from "@vercel/analytics/next"
+  5 | import "./globals.css"
+> 6 | import { AuthProvider } from "@/context/AuthContext"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 |
+  8 | const geist = Geist({ subsets: ["latin"] })
+  9 | const geistMono = Geist_Mono({ subsets: ["latin"] })
+
+Import map: aliased to relative './context/AuthContext' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[03:39:54.676] Server  ERROR    ⨯ ./app/layout.tsx:6:1
+Module not found: Can't resolve '@/context/AuthContext'
+  4 | import { Analytics } from "@vercel/analytics/next"
+  5 | import "./globals.css"
+> 6 | import { AuthProvider } from "@/context/AuthContext"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 |
+  8 | const geist = Geist({ subsets: ["latin"] })
+  9 | const geistMono = Geist_Mono({ subsets: ["latin"] })
+
+Import map: aliased to relative './context/AuthContext' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[03:39:54.690] Server  ERROR    ⨯ ./app/layout.tsx:6:1
+Module not found: Can't resolve '@/context/AuthContext'
+  4 | import { Analytics } from "@vercel/analytics/next"
+  5 | import "./globals.css"
+> 6 | import { AuthProvider } from "@/context/AuthContext"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 |
+  8 | const geist = Geist({ subsets: ["latin"] })
+  9 | const geistMono = Geist_Mono({ subsets: ["latin"] })
+
+Import map: aliased to relative './context/AuthContext' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[03:39:54.693] Server  ERROR    ⨯ ./app/layout.tsx:6:1
+Module not found: Can't resolve '@/context/AuthContext'
+  4 | import { Analytics } from "@vercel/analytics/next"
+  5 | import "./globals.css"
+> 6 | import { AuthProvider } from "@/context/AuthContext"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 |
+  8 | const geist = Geist({ subsets: ["latin"] })
+  9 | const geistMono = Geist_Mono({ subsets: ["latin"] })
+
+Import map: aliased to relative './context/AuthContext' inside of [project]/
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[03:39:55.391] Browser ERROR   ./app/layout.tsx:6:1
+Module not found: Can't resolve '@/context/AuthContext'
+  4 | import { Analytics } from "@vercel/analytics/next"
+  5 | import "./globals.css"
+> 6 | import { AuthProvider } from "@/context/AuthContext"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 |
+  8 | const geist = Geist({ subsets: ["latin"] })
+  9 | const geistMono = Geist_Mono({ subsets: ["latin"] })
+
+Import map: aliased to relative './context/AuthContext' inside of [project]/
+
+https://nextjs.org/docs/messages/module-not-found

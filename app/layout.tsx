@@ -3,6 +3,7 @@ import type { Metadata, Viewport } from "next"
 import { Geist, Geist_Mono } from "next/font/google"
 import { Analytics } from "@vercel/analytics/next"
 import "./globals.css"
+import { AuthProvider } from "@/context/AuthContext"
 
 const geist = Geist({ subsets: ["latin"] })
 const geistMono = Geist_Mono({ subsets: ["latin"] })
@@ -131,7 +132,9 @@ export default function RootLayout({
   return (
     <html lang="en" className="scroll-smooth">
       <body className={`font-sans antialiased`}>
-        {children}
+        <AuthProvider>
+               {children}
+        </AuthProvider>
         <Analytics />
       </body>
     </html>
