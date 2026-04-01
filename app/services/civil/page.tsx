@@ -137,7 +137,7 @@ export default function CivilPage() {
               Let us handle the engineering. Contact our civil engineering team for a comprehensive project assessment.
             </p>
             <Link
-              href="#contact"
+              href="/login"
               className="inline-block bg-primary-foreground text-primary px-8 py-3 rounded-lg font-bold hover:bg-secondary transition-colors"
             >
               Schedule Consultation

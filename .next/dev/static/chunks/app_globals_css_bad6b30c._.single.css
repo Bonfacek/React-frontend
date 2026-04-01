@@ -1745,10 +1745,6 @@
     border-color: var(--color-border);
   }
 
-  .border-accent {
-    border-color: var(--accent);
-  }
-
   .border-border {
     border-color: var(--border);
   }

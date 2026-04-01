@@ -148,7 +148,7 @@ export default function TelecomPage() {
               connectivity goals.
             </p>
             <Link
-              href="/quote"
+              href="/login"
               className="inline-block bg-primary-foreground text-primary px-8 py-3 rounded-lg font-bold hover:bg-secondary transition-colors"
             >
               Start Your Network Project

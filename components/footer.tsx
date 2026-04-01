@@ -2,8 +2,14 @@
 
 import Link from "next/link"
 import { Mail, Phone, MapPin,Twitter, Facebook, MessageCircle } from "lucide-react"
+import { useState, useEffect } from "react"
 
 export default function Footer() {
+  const [currentYear, setCurrentYear] = useState(new Date().getFullYear())
+useEffect(() =>{
+  setCurrentYear(new Date().getFullYear())
+}, [])
+
   return (
     <footer id="contact" className="bg-primary text-primary-foreground py-16">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -127,8 +133,8 @@ export default function Footer() {
         </div>
 
         <div className="border-t border-primary-foreground/20 pt-8 text-center" style={{ display: "flex", flexDirection: "row", alignItems: "center", gap: "100px" }}>
-          <p className="text-primary-foreground/80">&copy; 2025 JawaTech Engineering. All rights reserved.</p>
-           <p className="text-primary-foreground/80" style={{color:"greenyellow", font:"icon"}}>&copy; 2025 Designed & Developed by Jalsoft</p>
+          <p className="text-primary-foreground/80">&copy; {currentYear} JawaTech Engineering. All rights reserved.</p>
+           <p className="text-primary-foreground/80" style={{color:"greenyellow", font:"icon"}}>&copy; {currentYear} Designed & Developed by Jalsoft</p>
         </div>
       </div>
     </footer>

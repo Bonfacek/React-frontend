@@ -62,8 +62,7 @@ export default function Header() {
           </div>
 
           <NavLink href="/#experience">Experience</NavLink>
-          <NavLink href="/login">Login</NavLink>
-          <NavLink href="/quote">Get Quote</NavLink>
+          <NavLink href="/login">Get Consultation</NavLink>
           <Link
             href="/contact"
             className="bg-primary text-primary-foreground px-6 py-2 rounded-lg hover:bg-primary/90 transition-colors font-medium"
@@ -115,8 +114,7 @@ export default function Header() {
             </div>
 
             <MobileNavLink href="/#experience" setIsOpen={setIsOpen}>Experience</MobileNavLink>
-            <MobileNavLink href="/login" setIsOpen={setIsOpen}>Login</MobileNavLink>       {/* ✅ fixed */}
-            <MobileNavLink href="/quote" setIsOpen={setIsOpen}>Get Quote</MobileNavLink>   {/* ✅ fixed */}
+            <MobileNavLink href="/login" setIsOpen={setIsOpen}>Get Consultation</MobileNavLink>   
             <Link
               href="/contact"
               className="block bg-primary text-primary-foreground px-4 py-2 rounded-lg text-center font-medium"

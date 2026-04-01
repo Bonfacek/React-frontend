@@ -27,7 +27,7 @@ export default function Hero() {
 
         <div className="flex flex-col sm:flex-row gap-4 justify-center mb-12">
           <Link
-            href="/quote"
+            href="/login"            
             className="inline-flex items-center justify-center gap-2 bg-primary text-primary-foreground px-8 py-3 rounded-lg hover:bg-primary/90 transition-colors font-medium text-lg"
           >
             Get a Quote
