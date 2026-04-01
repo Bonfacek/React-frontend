@@ -48,7 +48,8 @@ function QuotePage() {
             const response = await fetch("http://localhost:8080/api/quotes/submit", {
                 method: "POST",
                 headers: {
-                    "Content-Type": "application/json"
+                    "Content-Type": "application/json",
+                    "authorization": `Bearer ${localStorage.getItem("token")}`
                 },
                 body: JSON.stringify(payload)
             });
@@ -84,14 +85,14 @@ function QuotePage() {
                             className: "w-5 h-5"
                         }, void 0, false, {
                             fileName: "[project]/app/quote/page.tsx",
-                            lineNumber: 73,
+                            lineNumber: 74,
                             columnNumber: 11
                         }, this),
                         "Back to Home"
                     ]
                 }, void 0, true, {
                     fileName: "[project]/app/quote/page.tsx",
-                    lineNumber: 72,
+                    lineNumber: 73,
                     columnNumber: 9
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -105,7 +106,7 @@ function QuotePage() {
                                     children: "Get a Project Quote"
                                 }, void 0, false, {
                                     fileName: "[project]/app/quote/page.tsx",
-                                    lineNumber: 79,
+                                    lineNumber: 80,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -113,13 +114,13 @@ function QuotePage() {
                                     children: "Tell us about your construction or engineering project, and we'll provide a detailed quote."
                                 }, void 0, false, {
                                     fileName: "[project]/app/quote/page.tsx",
-                                    lineNumber: 80,
+                                    lineNumber: 81,
                                     columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/app/quote/page.tsx",
-                            lineNumber: 78,
+                            lineNumber: 79,
                             columnNumber: 11
                         }, this),
                         submitted && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -129,12 +130,12 @@ function QuotePage() {
                                 children: "Thank you! We've received your quote request. We'll contact you soon."
                             }, void 0, false, {
                                 fileName: "[project]/app/quote/page.tsx",
-                                lineNumber: 87,
+                                lineNumber: 88,
                                 columnNumber: 15
                             }, this)
                         }, void 0, false, {
                             fileName: "[project]/app/quote/page.tsx",
-                            lineNumber: 86,
+                            lineNumber: 87,
                             columnNumber: 13
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("form", {
@@ -151,7 +152,7 @@ function QuotePage() {
                                                     children: "Full Name *"
                                                 }, void 0, false, {
                                                     fileName: "[project]/app/quote/page.tsx",
-                                                    lineNumber: 96,
+                                                    lineNumber: 97,
                                                     columnNumber: 17
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("input", {
@@ -164,13 +165,13 @@ function QuotePage() {
                                                     placeholder: "Your name"
                                                 }, void 0, false, {
                                                     fileName: "[project]/app/quote/page.tsx",
-                                                    lineNumber: 97,
+                                                    lineNumber: 98,
                                                     columnNumber: 17
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/app/quote/page.tsx",
-                                            lineNumber: 95,
+                                            lineNumber: 96,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -180,7 +181,7 @@ function QuotePage() {
                                                     children: "Email Address *"
                                                 }, void 0, false, {
                                                     fileName: "[project]/app/quote/page.tsx",
-                                                    lineNumber: 109,
+                                                    lineNumber: 110,
                                                     columnNumber: 17
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("input", {
@@ -193,13 +194,13 @@ function QuotePage() {
                                                     placeholder: "your@email.com"
                                                 }, void 0, false, {
                                                     fileName: "[project]/app/quote/page.tsx",
-                                                    lineNumber: 110,
+                                                    lineNumber: 111,
                                                     columnNumber: 17
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/app/quote/page.tsx",
-                                            lineNumber: 108,
+                                            lineNumber: 109,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -209,7 +210,7 @@ function QuotePage() {
                                                     children: "Phone Number *"
                                                 }, void 0, false, {
                                                     fileName: "[project]/app/quote/page.tsx",
-                                                    lineNumber: 122,
+                                                    lineNumber: 123,
                                                     columnNumber: 17
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("input", {
@@ -222,13 +223,13 @@ function QuotePage() {
                                                     placeholder: "+254 XXX XXX XXX"
                                                 }, void 0, false, {
                                                     fileName: "[project]/app/quote/page.tsx",
-                                                    lineNumber: 123,
+                                                    lineNumber: 124,
                                                     columnNumber: 17
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/app/quote/page.tsx",
-                                            lineNumber: 121,
+                                            lineNumber: 122,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -238,7 +239,7 @@ function QuotePage() {
                                                     children: "Project Type *"
                                                 }, void 0, false, {
                                                     fileName: "[project]/app/quote/page.tsx",
-                                                    lineNumber: 135,
+                                                    lineNumber: 136,
                                                     columnNumber: 17
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("select", {
@@ -254,7 +255,7 @@ function QuotePage() {
                                                             children: "Select a service"
                                                         }, void 0, false, {
                                                             fileName: "[project]/app/quote/page.tsx",
-                                                            lineNumber: 144,
+                                                            lineNumber: 145,
                                                             columnNumber: 19
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("option", {
@@ -262,7 +263,7 @@ function QuotePage() {
                                                             children: "Biogas Construction"
                                                         }, void 0, false, {
                                                             fileName: "[project]/app/quote/page.tsx",
-                                                            lineNumber: 145,
+                                                            lineNumber: 146,
                                                             columnNumber: 19
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("option", {
@@ -270,7 +271,7 @@ function QuotePage() {
                                                             children: "Civil Engineering"
                                                         }, void 0, false, {
                                                             fileName: "[project]/app/quote/page.tsx",
-                                                            lineNumber: 146,
+                                                            lineNumber: 147,
                                                             columnNumber: 19
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("option", {
@@ -278,7 +279,7 @@ function QuotePage() {
                                                             children: "Electrical Engineering"
                                                         }, void 0, false, {
                                                             fileName: "[project]/app/quote/page.tsx",
-                                                            lineNumber: 147,
+                                                            lineNumber: 148,
                                                             columnNumber: 19
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("option", {
@@ -286,7 +287,7 @@ function QuotePage() {
                                                             children: "Solar Installation"
                                                         }, void 0, false, {
                                                             fileName: "[project]/app/quote/page.tsx",
-                                                            lineNumber: 148,
+                                                            lineNumber: 149,
                                                             columnNumber: 19
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("option", {
@@ -294,7 +295,7 @@ function QuotePage() {
                                                             children: "Telecommunications Engineering"
                                                         }, void 0, false, {
                                                             fileName: "[project]/app/quote/page.tsx",
-                                                            lineNumber: 149,
+                                                            lineNumber: 150,
                                                             columnNumber: 19
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("option", {
@@ -302,19 +303,19 @@ function QuotePage() {
                                                             children: "Faiba Installation"
                                                         }, void 0, false, {
                                                             fileName: "[project]/app/quote/page.tsx",
-                                                            lineNumber: 150,
+                                                            lineNumber: 151,
                                                             columnNumber: 19
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/app/quote/page.tsx",
-                                                    lineNumber: 136,
+                                                    lineNumber: 137,
                                                     columnNumber: 17
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/app/quote/page.tsx",
-                                            lineNumber: 134,
+                                            lineNumber: 135,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -324,7 +325,7 @@ function QuotePage() {
                                                     children: "Project Timeline *"
                                                 }, void 0, false, {
                                                     fileName: "[project]/app/quote/page.tsx",
-                                                    lineNumber: 155,
+                                                    lineNumber: 156,
                                                     columnNumber: 17
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("select", {
@@ -340,7 +341,7 @@ function QuotePage() {
                                                             children: "Select timeline"
                                                         }, void 0, false, {
                                                             fileName: "[project]/app/quote/page.tsx",
-                                                            lineNumber: 164,
+                                                            lineNumber: 165,
                                                             columnNumber: 19
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("option", {
@@ -348,7 +349,7 @@ function QuotePage() {
                                                             children: "Immediate (1-3 months)"
                                                         }, void 0, false, {
                                                             fileName: "[project]/app/quote/page.tsx",
-                                                            lineNumber: 165,
+                                                            lineNumber: 166,
                                                             columnNumber: 19
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("option", {
@@ -356,7 +357,7 @@ function QuotePage() {
                                                             children: "Short-term (3-6 months)"
                                                         }, void 0, false, {
                                                             fileName: "[project]/app/quote/page.tsx",
-                                                            lineNumber: 166,
+                                                            lineNumber: 167,
                                                             columnNumber: 19
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("option", {
@@ -364,7 +365,7 @@ function QuotePage() {
                                                             children: "Medium-term (6-12 months)"
                                                         }, void 0, false, {
                                                             fileName: "[project]/app/quote/page.tsx",
-                                                            lineNumber: 167,
+                                                            lineNumber: 168,
                                                             columnNumber: 19
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("option", {
@@ -372,25 +373,25 @@ function QuotePage() {
                                                             children: "Long-term (12+ months)"
                                                         }, void 0, false, {
                                                             fileName: "[project]/app/quote/page.tsx",
-                                                            lineNumber: 168,
+                                                            lineNumber: 169,
                                                             columnNumber: 19
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/app/quote/page.tsx",
-                                                    lineNumber: 156,
+                                                    lineNumber: 157,
                                                     columnNumber: 17
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/app/quote/page.tsx",
-                                            lineNumber: 154,
+                                            lineNumber: 155,
                                             columnNumber: 15
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/app/quote/page.tsx",
-                                    lineNumber: 94,
+                                    lineNumber: 95,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -400,7 +401,7 @@ function QuotePage() {
                                             children: "Project Details *"
                                         }, void 0, false, {
                                             fileName: "[project]/app/quote/page.tsx",
-                                            lineNumber: 174,
+                                            lineNumber: 175,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("textarea", {
@@ -413,13 +414,13 @@ function QuotePage() {
                                             placeholder: "Describe your project in detail, including any specific requirements, location, or challenges..."
                                         }, void 0, false, {
                                             fileName: "[project]/app/quote/page.tsx",
-                                            lineNumber: 175,
+                                            lineNumber: 176,
                                             columnNumber: 15
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/app/quote/page.tsx",
-                                    lineNumber: 173,
+                                    lineNumber: 174,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -431,7 +432,7 @@ function QuotePage() {
                                             children: "Request Quote"
                                         }, void 0, false, {
                                             fileName: "[project]/app/quote/page.tsx",
-                                            lineNumber: 187,
+                                            lineNumber: 188,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
@@ -440,36 +441,36 @@ function QuotePage() {
                                             children: "Cancel"
                                         }, void 0, false, {
                                             fileName: "[project]/app/quote/page.tsx",
-                                            lineNumber: 194,
+                                            lineNumber: 195,
                                             columnNumber: 15
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/app/quote/page.tsx",
-                                    lineNumber: 186,
+                                    lineNumber: 187,
                                     columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/app/quote/page.tsx",
-                            lineNumber: 93,
+                            lineNumber: 94,
                             columnNumber: 11
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/app/quote/page.tsx",
-                    lineNumber: 77,
+                    lineNumber: 78,
                     columnNumber: 9
                 }, this)
             ]
         }, void 0, true, {
             fileName: "[project]/app/quote/page.tsx",
-            lineNumber: 70,
+            lineNumber: 71,
             columnNumber: 7
         }, this)
     }, void 0, false, {
         fileName: "[project]/app/quote/page.tsx",
-        lineNumber: 69,
+        lineNumber: 70,
         columnNumber: 5
     }, this);
 }

@@ -31,6 +31,7 @@ export default function Login() {
       if (data.success) {
         localStorage.setItem("token", data.message)
         window.location.href = "/"
+        
       } else {
         setError(data.message || "Login failed")
       }
