@@ -7,12 +7,14 @@ import { useState } from "react"
 import { ArrowLeft } from "lucide-react"
 import Header from "@/components/header"
 import Footer from "@/components/footer"
+import { useAuth } from "@/hooks/contexts/AuthContext"
 
 export default function Login() {
   const [email, setEmail] = useState("")
   const [password, setPassword] = useState("")
   const [error, setError] = useState("")
   const [loading, setLoading] = useState(false)
+  const { login } = useAuth()
 
   const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault()
@@ -29,7 +31,8 @@ export default function Login() {
       const data = await response.json()
 
       if (data.success) {
-        localStorage.setItem("token", data.message)
+        login(data.messagge)
+        const returnTo = new URLSearchParams(window.location.search).get("returnTo")
         window.location.href = "/"
         
       } else {
