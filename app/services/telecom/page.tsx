@@ -2,8 +2,10 @@
 
 import { CheckCircle } from "lucide-react"
 import Link from "next/link"
+import { useAuth } from "@/contexts/AuthContext"
 
 export default function TelecomPage() {
+  const { isLoggedIn } = useAuth()
   return (
     <main className="min-h-screen bg-background">
       {/* Hero Section */}
@@ -148,7 +150,7 @@ export default function TelecomPage() {
               connectivity goals.
             </p>
             <Link
-              href="/login"
+              href={isLoggedIn ? "/quote":"/login?returnTo=/quote"}
               className="inline-block bg-primary-foreground text-primary px-8 py-3 rounded-lg font-bold hover:bg-secondary transition-colors"
             >
               Start Your Network Project

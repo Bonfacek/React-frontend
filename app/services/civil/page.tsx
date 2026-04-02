@@ -2,8 +2,10 @@
 
 import { CheckCircle } from "lucide-react"
 import Link from "next/link"
+import { useAuth } from "@/contexts/AuthContext"
 
 export default function CivilPage() {
+  const { isLoggedIn } = useAuth()
   return (
     <main className="min-h-screen bg-background">
       {/* Hero Section */}
@@ -137,7 +139,7 @@ export default function CivilPage() {
               Let us handle the engineering. Contact our civil engineering team for a comprehensive project assessment.
             </p>
             <Link
-              href="/login"
+              href={isLoggedIn ? "/quote" : "/login?returnTo=/quote"}
               className="inline-block bg-primary-foreground text-primary px-8 py-3 rounded-lg font-bold hover:bg-secondary transition-colors"
             >
               Schedule Consultation

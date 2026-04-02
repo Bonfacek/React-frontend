@@ -7,7 +7,7 @@ import { useState } from "react"
 import { ArrowLeft } from "lucide-react"
 import Header from "@/components/header"
 import Footer from "@/components/footer"
-import { useAuth } from "@/hooks/contexts/AuthContext"
+import { useAuth } from "@/contexts/AuthContext"
 
 export default function Login() {
   const [email, setEmail] = useState("")
@@ -31,10 +31,9 @@ export default function Login() {
       const data = await response.json()
 
       if (data.success) {
-        login(data.messagge)
-        const returnTo = new URLSearchParams(window.location.search).get("returnTo")
-        window.location.href = "/"
-        
+        login(data.message)
+       const returnTo = new URLSearchParams(window.location.search).get("returnTo")
+        window.location.href = returnTo || "/"        
       } else {
         setError(data.message || "Login failed")
       }

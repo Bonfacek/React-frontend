@@ -2,8 +2,12 @@
 
 import Link from "next/link"
 import { ArrowRight } from "lucide-react"
+import { useAuth } from "@/contexts/AuthContext"
+
 
 export default function Hero() {
+  const { isLoggedIn } = useAuth()
+
   return (
     <section
       id="home"
@@ -27,7 +31,7 @@ export default function Hero() {
 
         <div className="flex flex-col sm:flex-row gap-4 justify-center mb-12">
           <Link
-            href="/login"            
+            href={isLoggedIn ? "/quote" : "/login?returnTo=/quote"}
             className="inline-flex items-center justify-center gap-2 bg-primary text-primary-foreground px-8 py-3 rounded-lg hover:bg-primary/90 transition-colors font-medium text-lg"
           >
             Get a Quote
