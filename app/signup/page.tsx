@@ -121,25 +121,7 @@ export default function Register() {
             >
               <GoogleIcon />
               {socialLoading === "google" ? "Redirecting..." : "Continue with Google"}
-            </button>
-
-            <button
-              onClick={() => handleSocialLogin("github")}
-              disabled={!!socialLoading}
-              className="w-full flex items-center justify-center gap-3 px-4 py-2.5 border border-border rounded-lg hover:bg-muted/50 transition-colors text-sm font-medium disabled:opacity-50"
-            >
-              <GithubIcon />
-              {socialLoading === "github" ? "Redirecting..." : "Continue with GitHub"}
-            </button>
-
-            <button
-              onClick={() => handleSocialLogin("apple")}
-              disabled={!!socialLoading}
-              className="w-full flex items-center justify-center gap-3 px-4 py-2.5 border border-border rounded-lg hover:bg-muted/50 transition-colors text-sm font-medium disabled:opacity-50"
-            >
-              <AppleIcon />
-              {socialLoading === "apple" ? "Redirecting..." : "Continue with Apple"}
-            </button>
+            </button>        
           </div>
 
           <Divider />

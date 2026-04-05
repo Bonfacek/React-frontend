@@ -24,7 +24,7 @@ export default function Header() {
       <nav className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4 flex items-center justify-between">
         {/* Logo */}
         <Link href="/#about" className="flex items-center gap-2">
-          <div className="w-15 h-12 bg-primary rounded-lg flex items-center justify-center overflow-hidden">
+          <div className="w-15 h-12 bg-primary rounded-15 rounded-lg flex items-center justify-center overflow-hidden">
             <span className="text-primary-foreground font-bold text-lg">
               <img src="/icon.jpg" alt="JT" className="w-15 h-15 object-cover" />
             </span>
