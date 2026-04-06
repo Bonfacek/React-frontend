@@ -21,10 +21,10 @@ export default function BiogasPage() {
 
         <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex flex-col items-center animate-fade-in-up">
-            <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-maroon-100 mb-6">
+            <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-[#8B0000] mb-6">
               Biogas Construction
             </h1>
-            <p className="text-lg text-maroon-700 max-w-2xl italic mx-auto mb-8">
+            <p className="text-lg text-white/80 italic max-w-2xl mx-auto mb-8">
               State-of-the-art biogas facilities engineered for maximum efficiency,
               sustainability, and environmental impact.
             </p>

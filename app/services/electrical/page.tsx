@@ -22,10 +22,10 @@ export default function ElectricalPage() {
   </div>
 
   <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20 text-center animate-fade-in-up">
-    <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-maroon-500 mb-6">
+    <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-[#8B0000] mb-6">
       Electrical Engineering & Solar Installation
     </h1>
-    <p className="text-lg text-maroon-700 max-w-2xl mx-auto">
+    <p className="text-lg max-w-2xl italic mx-auto text-accent-500 text-white/80">
       Complete electrical installation, power distribution, solar energy
       solutions and renewable energy integration for modern infrastructure.
     </p>

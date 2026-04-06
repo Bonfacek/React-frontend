@@ -24,7 +24,7 @@ export default function TelecomPage() {
         <h1 className="text-4xl sm:text-5xl lg:text-6xl text-[#8B0000] font-bold text-maroon-500 mb-6">
           Telecommunications Engineering & Faiba Installation
         </h1>
-        <p className="text-lg text-maroon-700 max-w-2xl italic mx-auto">
+        <p className="text-lg text-maroon-700 max-w-2xl italic mx-auto text-accent-500" >
           Modern telecom network design, deployment, maintenance and Faiba fiber
           connectivity solutions for reliable, high-speed connectivity across East Africa.
         </p>
