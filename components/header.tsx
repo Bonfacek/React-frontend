@@ -70,7 +70,7 @@ export default function Header() {
           {!loading && (
             isLoggedIn ? (
               <>
-                <span className="text-foreground font-bold text-sm">{username}</span>
+              
                 <Link
                   href="/logout"
                   className="text-foreground hover:text-primary transition-colors font-bold hover:underline"
@@ -141,7 +141,7 @@ export default function Header() {
             {!loading && (
               isLoggedIn ? (
                 <>
-                  <span className="block text-foreground font-bold text-sm">{username}</span>
+              
                   <Link
                     href="/logout"
                     className="block text-foreground hover:text-primary transition-colors font-bold"

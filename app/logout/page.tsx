@@ -25,7 +25,7 @@ export default function Logout() {
       localStorage.removeItem("refreshToken")
 
       // Redirect to login
-      window.location.href = "/login"
+      window.location.href = "/#home"
     }
 
     performLogout()
