@@ -103,6 +103,8 @@
     --color-green-500: #00c758;
     --color-green-600: #00a544;
     --color-green-800: #016630;
+    --color-blue-400: #54a2ff;
+    --color-blue-500: #3080ff;
     --color-gray-50: #f9fafb;
     --color-gray-100: #f3f4f6;
     --color-gray-300: #d1d5dc;
@@ -150,6 +152,7 @@
     --font-weight-semibold: 600;
     --font-weight-bold: 700;
     --tracking-tight: -.025em;
+    --tracking-wider: .05em;
     --tracking-widest: .1em;
     --leading-tight: 1.25;
     --leading-snug: 1.375;
@@ -186,6 +189,8 @@
       --color-green-500: lab(70.5521% -66.5147 45.8073);
       --color-green-600: lab(59.0978% -58.6621 41.2579);
       --color-green-800: lab(37.4616% -36.7971 22.9692);
+      --color-blue-400: lab(65.0361% -1.42065 -56.9802);
+      --color-blue-500: lab(54.1736% 13.3369 -74.6839);
       --color-gray-50: lab(98.2596% -.247031 -.706708);
       --color-gray-100: lab(96.1596% -.0823438 -1.13575);
       --color-gray-300: lab(85.1236% -.612259 -3.7138);
@@ -2531,6 +2536,11 @@
     letter-spacing: var(--tracking-tight);
   }
 
+  .tracking-wider {
+    --tw-tracking: var(--tracking-wider);
+    letter-spacing: var(--tracking-wider);
+  }
+
   .tracking-widest {
     --tw-tracking: var(--tracking-widest);
     letter-spacing: var(--tracking-widest);
@@ -2570,6 +2580,10 @@
 
   .text-black {
     color: var(--color-black);
+  }
+
+  .text-blue-500 {
+    color: var(--color-blue-500);
   }
 
   .text-card-foreground {
@@ -4945,6 +4959,24 @@
   @media (prefers-color-scheme: dark) {
     .dark\:bg-transparent {
       background-color: #0000;
+    }
+  }
+
+  @media (prefers-color-scheme: dark) {
+    .dark\:text-blue-400 {
+      color: var(--color-blue-400);
+    }
+  }
+
+  @media (prefers-color-scheme: dark) {
+    .dark\:text-gray-100 {
+      color: var(--color-gray-100);
+    }
+  }
+
+  @media (prefers-color-scheme: dark) {
+    .dark\:text-gray-400 {
+      color: var(--color-gray-400);
     }
   }
 

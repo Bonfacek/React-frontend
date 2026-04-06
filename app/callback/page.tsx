@@ -2,13 +2,15 @@
 
 import { useEffect, Suspense } from 'react';
 import { useRouter, useSearchParams } from 'next/navigation';
+import { useAuth } from "@/contexts/AuthContext"
 
 export default function Callback() {
-  const router = useRouter();
+  const router = useRouter();  
   const searchParams = useSearchParams();
+  const { login } = useAuth();
+
 
   useEffect(() => {
-    // Get tokens directly from URL (what your backend sends)
     const accessToken = searchParams.get('accessToken');
     const refreshToken = searchParams.get('refreshToken');
     const error = searchParams.get('error');
@@ -20,12 +22,11 @@ export default function Callback() {
     }
     
     if (accessToken && refreshToken) {
-      // Store the tokens directly
       localStorage.setItem('accessToken', accessToken);
       localStorage.setItem('refreshToken', refreshToken);
+      login(accessToken);
       router.push('/#home');
     } else {
-      // Fallback to code flow (if you still need it)
       const code = searchParams.get('code');
       const state = searchParams.get('state');
       
@@ -42,6 +43,7 @@ export default function Callback() {
             if (data.accessToken) {
               localStorage.setItem('accessToken', data.accessToken);
               localStorage.setItem('refreshToken', data.refreshToken);
+                login(data.accessToken);
               router.push('/#home');
             } else {
               router.push('/#home');

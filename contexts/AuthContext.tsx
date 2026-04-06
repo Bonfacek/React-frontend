@@ -16,10 +16,10 @@ const AuthContext = createContext<AuthContextType | null>(null)
 export function AuthProvider({ children }: { children: ReactNode }) {
   const [isLoggedIn, setIsLoggedIn] = useState(false)
   const [username, setUsername] = useState<string | null>(null)
-  const [loading, setLoading] = useState(true) // true until we've checked localStorage
+  const [loading, setLoading] = useState(true) 
 
   useEffect(() => {
-    // Check auth state on mount
+    
     if (isAuthenticated()) {
       setIsLoggedIn(true)
       setUsername(getUsername())
@@ -38,7 +38,7 @@ export function AuthProvider({ children }: { children: ReactNode }) {
 
   const logout = async () => {
     const token = getToken()
-    // Call backend logout to blacklist token in Redis
+    
     if (token) {
       try {
         await fetch(`${process.env.NEXT_PUBLIC_API_URL}/userapi/logout`, {
@@ -46,7 +46,6 @@ export function AuthProvider({ children }: { children: ReactNode }) {
           headers: { Authorization: `Bearer ${token}` },
         })
       } catch {
-        // Proceed with local logout even if backend call fails
       }
     }
     removeToken()
