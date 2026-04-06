@@ -9,24 +9,28 @@ export default function BiogasPage() {
   const { isLoggedIn } = useAuth()
   return (
     <main className="min-h-screen bg-background">
-      {/* Hero Section */}
-      <section className="relative py-20 bg-gradient-to-br from-primary/5 via-background to-accent/5">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="text-center animate-fade-in-up">
-            <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-foreground mb-6">Biogas Construction</h1>
-            <p className="text-lg text-muted-foreground max-w-2xl mx-auto mb-8">
-              State-of-the-art biogas facilities engineered for maximum efficiency, sustainability, and environmental
-              impact.
-            </p>
-          </div>
+      <section className="relative py-20 min-h-[80vh] flex items-center justify-center overflow-hidden">
+        <div className="absolute inset-0">
+          <img
+            src="/biogas-plant.png"
+            alt="Biogas Construction"
+            className="w-full h-full object-cover"
+          />
+          <div className="absolute inset-0 bg-black/55" />
+        </div>
 
-          <div className="mt-2 h-130 rounded-lg overflow-hidden shadow-lg animate-scale-up">
-            <img src="/biogas-plant.png" alt="Biogas Construction" className="w-full h-full object-cover" />
+        <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="flex flex-col items-center animate-fade-in-up">
+            <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-maroon-100 mb-6">
+              Biogas Construction
+            </h1>
+            <p className="text-lg text-maroon-700 max-w-2xl italic mx-auto mb-8">
+              State-of-the-art biogas facilities engineered for maximum efficiency,
+              sustainability, and environmental impact.
+            </p>
           </div>
         </div>
       </section>
-
-      {/* Service Details */}
       <section className="py-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 mb-20">

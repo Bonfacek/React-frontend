@@ -9,22 +9,30 @@ export default function CivilPage() {
   return (
     <main className="min-h-screen bg-background">
       {/* Hero Section */}
-      <section className="relative py-20 bg-gradient-to-br from-primary/5 via-background to-accent/5">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="text-center animate-fade-in-up">
-            <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-foreground mb-6">Civil Engineering</h1>
-            <p className="text-lg text-muted-foreground max-w-2xl mx-auto mb-8">
-              Comprehensive civil engineering services including infrastructure development, structural design, and
-              project management.
-            </p>
-          </div>
+      <section className="relative min-h-[80vh] flex items-center justify-center overflow-hidden">
 
-          <div className="mt-12 h-96 rounded-lg overflow-hidden shadow-lg animate-scale-up">
-            <img src="/civil-engineering-construction-infrastructure.jpg" alt="Civil Engineering" className="w-full h-full object-cover" />
-          </div>
+        {/* Full background image */}
+        <div className="absolute inset-0">
+          <img
+            src="/civil-engineering-construction-infrastructure.jpg"
+            alt="Civil Engineering"
+            className="w-full h-full object-cover"
+          />
+          <div className="absolute inset-0 bg-black/55" />
         </div>
-      </section>
 
+        {/* Content */}
+        <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20 text-center animate-fade-in-up">
+          <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-gray-00 mb-6">
+            Civil Engineering
+          </h1>
+          <p className="text-lg text-maroon-700 max-w-2xl mx-auto">
+            Comprehensive civil engineering services including infrastructure
+            development, structural design, and project management.
+          </p>
+        </div>
+
+      </section>
       {/* Service Details */}
       <section className="py-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">

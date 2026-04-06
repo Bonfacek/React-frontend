@@ -1,6 +1,6 @@
 "use client"
 
-import {useState } from "react"
+import { useState } from "react"
 import Link from "next/link"
 import { Menu, X, ChevronDown } from "lucide-react"
 import { useAuth } from "@/contexts/AuthContext"
@@ -9,8 +9,7 @@ export default function Header() {
   const [isOpen, setIsOpen] = useState(false)
   const [servicesOpen, setServicesOpen] = useState(false)
   const [mobileServicesOpen, setMobileServicesOpen] = useState(false)
-  const { isLoggedIn, loading, username, logout } = useAuth()
-    
+  const { isLoggedIn, loading, username } = useAuth()
 
   const Services = [
     { name: "Biogas Construction", href: "/services/biogas" },
@@ -22,12 +21,11 @@ export default function Header() {
   return (
     <header className="sticky top-0 z-50 bg-background border-b border-border">
       <nav className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4 flex items-center justify-between">
+
         {/* Logo */}
-        <Link href="/#about" className="flex items-center gap-2">
-          <div className="w-15 h-12 bg-primary rounded-15 rounded-lg flex items-center justify-center overflow-hidden">
-            <span className="text-primary-foreground font-bold text-lg">
-              <img src="/icon.jpg" alt="JT" className="w-15 h-15 object-cover" />
-            </span>
+        <Link href="/" className="flex items-center gap-2">
+          <div className="w-15 h-12 bg-primary rounded-lg flex items-center justify-center overflow-hidden">
+            <img src="/icon.jpg" alt="JT" className="w-15 h-15 object-cover" />
           </div>
           <span className="font-bold text-xl text-primary hidden sm:inline">JawaTech</span>
         </Link>
@@ -47,9 +45,8 @@ export default function Header() {
               Services
               <ChevronDown className={`w-4 h-4 transition-transform duration-200 ${servicesOpen ? "rotate-180" : ""}`} />
             </button>
-
             {servicesOpen && (
-              <div className="absolute left-0 mt-2 w-56 bg-white rounded-lg shadow-xl border border-border py-2 z-50 animate-in fade-in slide-in-from-top-2">
+              <div className="absolute left-0 mt-2 w-56 bg-white rounded-lg shadow-xl border border-border py-2 z-50">
                 {Services.map((service) => (
                   <Link
                     key={service.href}
@@ -65,7 +62,27 @@ export default function Header() {
           </div>
 
           <NavLink href="/#experience">Experience</NavLink>
-          <NavLink href={isLoggedIn ? "/quote":"/login?returnTo=/quote"}>Get Consultation</NavLink>
+          <NavLink href={!loading && isLoggedIn ? "/quote" : "/login?returnTo=/quote"}>
+            Get Consultation
+          </NavLink>
+
+          {/* Auth state */}
+          {!loading && (
+            isLoggedIn ? (
+              <>
+                <span className="text-foreground font-bold text-sm">{username}</span>
+                <Link
+                  href="/logout"
+                  className="text-foreground hover:text-primary transition-colors font-bold hover:underline"
+                >
+                  Logout
+                </Link>
+              </>
+            ) : (
+              <NavLink href="/login">Login</NavLink>
+            )
+          )}
+
           <Link
             href="/contact"
             className="bg-primary text-primary-foreground px-6 py-2 rounded-lg hover:bg-primary/90 transition-colors font-medium"
@@ -96,7 +113,6 @@ export default function Header() {
                 <span className="font-bold">Services</span>
                 <ChevronDown className={`w-4 h-4 transition-transform duration-200 ${mobileServicesOpen ? "rotate-180" : ""}`} />
               </button>
-
               {mobileServicesOpen && (
                 <div className="pl-4 space-y-2 border-l-2 border-primary/20 ml-2">
                   {Services.map((service) => (
@@ -104,10 +120,7 @@ export default function Header() {
                       key={service.href}
                       href={service.href}
                       className="block py-2 text-foreground/80 hover:text-primary transition-colors"
-                      onClick={() => {
-                        setMobileServicesOpen(false)
-                        setIsOpen(false)
-                      }}
+                      onClick={() => { setMobileServicesOpen(false); setIsOpen(false) }}
                     >
                       {service.name}
                     </Link>
@@ -117,9 +130,31 @@ export default function Header() {
             </div>
 
             <MobileNavLink href="/#experience" setIsOpen={setIsOpen}>Experience</MobileNavLink>
-            <MobileNavLink href={isLoggedIn ? "/quote" : "/login?returnTo=/quote"} setIsOpen={setIsOpen}>
+            <MobileNavLink
+              href={!loading && isLoggedIn ? "/quote" : "/login?returnTo=/quote"}
+              setIsOpen={setIsOpen}
+            >
               Get Consultation
             </MobileNavLink>
+
+            {/* Auth state */}
+            {!loading && (
+              isLoggedIn ? (
+                <>
+                  <span className="block text-foreground font-bold text-sm">{username}</span>
+                  <Link
+                    href="/logout"
+                    className="block text-foreground hover:text-primary transition-colors font-bold"
+                    onClick={() => setIsOpen(false)}
+                  >
+                    Logout
+                  </Link>
+                </>
+              ) : (
+                <MobileNavLink href="/login" setIsOpen={setIsOpen}>Login</MobileNavLink>
+              )
+            )}
+
             <Link
               href="/contact"
               className="block bg-primary text-primary-foreground px-4 py-2 rounded-lg text-center font-medium"
@@ -133,14 +168,15 @@ export default function Header() {
     </header>
   )
 }
+
 function NavLink({ href, children }: { href: string; children: React.ReactNode }) {
   return (
     <Link
       href={href}
-      className="relative text-foreground hover:text-primary transition-colors font-bold group"
+      className="relative text-foreground hover:text-primary font-bold transition-colors duration-200 group px-1"
     >
       {children}
-      <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-primary transition-all duration-300 group-hover:w-full" />
+      <span className="absolute -bottom-1 left-0 w-0 h-[2px] bg-primary rounded-full transition-all duration-300 ease-out group-hover:w-full" />
     </Link>
   )
 }

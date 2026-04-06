@@ -35,3 +35,191 @@ Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
 [00:27:05.308] Server  LOG      ✓ Compiled in 110ms
 [00:27:41.031] Server  LOG      ✓ Compiled in 138ms
 [00:28:22.402] Server  LOG      ✓ Compiled in 77ms
+[01:00:30.999] Server  LOG      ✓ Compiled in 885ms
+[01:03:17.207] Server  WARN     ⚠ Unsupported metadata colorScheme is configured in metadata export in /login. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[01:03:17.402] Browser LOG     %c[Vercel Web Analytics]%c [view] http://10.10.2.217:3000/login?returnTo=/quote color: rgb(120, 120, 120) color: inherit {"dp":"/login","o":"http://10.10.2.217:3000/login?returnTo=/quote","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1775420319348} /_vercel/insights/view
+[01:03:20.419] Server  WARN     ⚠ Unsupported metadata colorScheme is configured in metadata export in /login. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[01:03:22.850] Server  WARN     ⚠ Unsupported metadata colorScheme is configured in metadata export in /login. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[01:03:24.471] Server  WARN     ⚠ Unsupported metadata colorScheme is configured in metadata export in /. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[01:03:24.697] Browser LOG     %c[Vercel Web Analytics]%c [view] http://10.10.2.217:3000/#experience color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://10.10.2.217:3000/#experience","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1775420326638} /_vercel/insights/view
+[01:03:26.177] Server  WARN     ⚠ Unsupported metadata colorScheme is configured in metadata export in /login. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[01:03:26.336] Browser LOG     %c[Vercel Web Analytics]%c [view] http://10.10.2.217:3000/login color: rgb(120, 120, 120) color: inherit {"dp":"/login","o":"http://10.10.2.217:3000/login","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1775420328284} /_vercel/insights/view
+[01:03:28.347] Server  WARN     ⚠ Unsupported metadata colorScheme is configured in metadata export in /login. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[01:03:35.863] Server  WARN     ⚠ Unsupported metadata colorScheme is configured in metadata export in /. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[01:03:36.070] Browser LOG     %c[Vercel Web Analytics]%c [view] http://10.10.2.217:3000/#home color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://10.10.2.217:3000/#home","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1775420338013} /_vercel/insights/view
+[01:05:10.393] Server  WARN     ⚠ Unsupported metadata colorScheme is configured in metadata export in /services/biogas. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[01:05:10.726] Browser LOG     %c[Vercel Web Analytics]%c [view] http://10.10.2.217:3000/services/biogas color: rgb(120, 120, 120) color: inherit {"dp":"/services/biogas","o":"http://10.10.2.217:3000/services/biogas","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1775420432671} /_vercel/insights/view
+[01:05:29.115] Server  LOG      ✓ Compiled in 179ms
+[01:05:58.555] Server  LOG      ✓ Compiled in 148ms
+[01:08:34.505] Server  LOG      ✓ Compiled in 337ms
+[01:09:34.508] Server  LOG      ✓ Compiled in 129ms
+[01:10:31.507] Server  LOG      ✓ Compiled in 455ms
+[01:11:50.790] Server  LOG      ✓ Compiled in 133ms
+[01:12:19.934] Server  LOG      ✓ Compiled in 241ms
+[01:12:35.607] Server  LOG      ✓ Compiled in 169ms
+[01:13:09.856] Server  LOG      ✓ Compiled in 193ms
+[01:14:35.500] Server  LOG      ✓ Compiled in 105ms
+[01:15:09.754] Server  LOG      ✓ Compiled in 222ms
+[01:21:04.242] Server  WARN     ⚠ Unsupported metadata colorScheme is configured in metadata export in /. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[01:21:04.489] Browser LOG     %c[Vercel Web Analytics]%c [view] http://10.10.2.217:3000/#home color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://10.10.2.217:3000/#home","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1775421386431} /_vercel/insights/view
+[01:21:09.724] Server  WARN     ⚠ Unsupported metadata colorScheme is configured in metadata export in /services/civil. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[01:21:09.986] Browser LOG     %c[Vercel Web Analytics]%c [view] http://10.10.2.217:3000/services/civil color: rgb(120, 120, 120) color: inherit {"dp":"/services/civil","o":"http://10.10.2.217:3000/services/civil","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1775421391932} /_vercel/insights/view
+[01:21:17.604] Server  LOG      ✓ Compiled in 329ms
+[01:23:31.078] Server  LOG      ✓ Compiled in 145ms
+[01:24:13.362] Server  LOG      ✓ Compiled in 412ms
+[01:24:25.245] Server  LOG      ✓ Compiled in 134ms
+[01:24:36.072] Server  WARN     ⚠ Unsupported metadata colorScheme is configured in metadata export in /. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[01:24:36.335] Browser LOG     %c[Vercel Web Analytics]%c [view] http://10.10.2.217:3000/#home color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://10.10.2.217:3000/#home","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1775421598272} /_vercel/insights/view
+[01:24:39.911] Server  WARN     ⚠ Unsupported metadata colorScheme is configured in metadata export in /services/biogas. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[01:24:40.091] Browser LOG     %c[Vercel Web Analytics]%c [view] http://10.10.2.217:3000/services/biogas color: rgb(120, 120, 120) color: inherit {"dp":"/services/biogas","o":"http://10.10.2.217:3000/services/biogas","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1775421602039} /_vercel/insights/view
+[01:24:52.351] Server  WARN     ⚠ Unsupported metadata colorScheme is configured in metadata export in /. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[01:24:52.551] Browser LOG     %c[Vercel Web Analytics]%c [view] http://10.10.2.217:3000/#home color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://10.10.2.217:3000/#home","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1775421614499} /_vercel/insights/view
+[01:25:05.389] Server  WARN     ⚠ Unsupported metadata colorScheme is configured in metadata export in /services/civil. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[01:25:05.599] Browser LOG     %c[Vercel Web Analytics]%c [view] http://10.10.2.217:3000/services/civil color: rgb(120, 120, 120) color: inherit {"dp":"/services/civil","o":"http://10.10.2.217:3000/services/civil","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1775421627546} /_vercel/insights/view
+[01:26:29.187] Server  WARN     ⚠ Unsupported metadata colorScheme is configured in metadata export in /. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[01:26:29.398] Browser LOG     %c[Vercel Web Analytics]%c [view] http://10.10.2.217:3000/#home color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://10.10.2.217:3000/#home","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1775421711346} /_vercel/insights/view
+[01:26:34.844] Server  WARN     ⚠ Unsupported metadata colorScheme is configured in metadata export in /services/electrical. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[01:26:35.091] Browser LOG     %c[Vercel Web Analytics]%c [view] http://10.10.2.217:3000/services/electrical color: rgb(120, 120, 120) color: inherit {"dp":"/services/electrical","o":"http://10.10.2.217:3000/services/electrical","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1775421717039} /_vercel/insights/view
+[01:26:51.590] Server  LOG      ✓ Compiled in 116ms
+[01:28:45.050] Server  WARN     ⚠ Unsupported metadata colorScheme is configured in metadata export in /. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[01:28:45.243] Browser LOG     %c[Vercel Web Analytics]%c [view] http://10.10.2.217:3000/#home color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://10.10.2.217:3000/#home","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1775421847190} /_vercel/insights/view
+[01:28:53.220] Server  WARN     ⚠ Unsupported metadata colorScheme is configured in metadata export in /services/telecom. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[01:28:53.451] Browser LOG     %c[Vercel Web Analytics]%c [view] http://10.10.2.217:3000/services/telecom color: rgb(120, 120, 120) color: inherit {"dp":"/services/telecom","o":"http://10.10.2.217:3000/services/telecom","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1775421855398} /_vercel/insights/view
+[01:29:15.212] Server  LOG      ✓ Compiled in 309ms
+[01:29:51.063] Server  WARN     ⚠ Unsupported metadata colorScheme is configured in metadata export in /. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[01:29:51.307] Browser LOG     %c[Vercel Web Analytics]%c [view] http://10.10.2.217:3000/#home color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://10.10.2.217:3000/#home","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1775421913253} /_vercel/insights/view
+[01:33:30.298] Server  WARN     ⚠ Unsupported metadata colorScheme is configured in metadata export in /services/biogas. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[01:33:30.510] Browser LOG     %c[Vercel Web Analytics]%c [view] http://10.10.2.217:3000/services/biogas color: rgb(120, 120, 120) color: inherit {"dp":"/services/biogas","o":"http://10.10.2.217:3000/services/biogas","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1775422132459} /_vercel/insights/view
+[01:34:15.122] Server  LOG      ✓ Compiled in 205ms
+[01:34:23.759] Server  WARN     ⚠ Unsupported metadata colorScheme is configured in metadata export in /. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[01:34:23.968] Browser LOG     %c[Vercel Web Analytics]%c [view] http://10.10.2.217:3000/#home color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://10.10.2.217:3000/#home","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1775422185916} /_vercel/insights/view
+[01:34:28.627] Server  WARN     ⚠ Unsupported metadata colorScheme is configured in metadata export in /services/electrical. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[01:34:28.832] Browser LOG     %c[Vercel Web Analytics]%c [view] http://10.10.2.217:3000/services/electrical color: rgb(120, 120, 120) color: inherit {"dp":"/services/electrical","o":"http://10.10.2.217:3000/services/electrical","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1775422190779} /_vercel/insights/view
+[01:35:18.747] Server  WARN     ⚠ Unsupported metadata colorScheme is configured in metadata export in /. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[01:35:18.953] Browser LOG     %c[Vercel Web Analytics]%c [view] http://10.10.2.217:3000/#home color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://10.10.2.217:3000/#home","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1775422240899} /_vercel/insights/view
+[01:35:29.262] Server  WARN     ⚠ Unsupported metadata colorScheme is configured in metadata export in /services/civil. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[01:35:29.456] Browser LOG     %c[Vercel Web Analytics]%c [view] http://10.10.2.217:3000/services/civil color: rgb(120, 120, 120) color: inherit {"dp":"/services/civil","o":"http://10.10.2.217:3000/services/civil","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1775422251403} /_vercel/insights/view
+[01:35:32.322] Server  WARN     ⚠ Unsupported metadata colorScheme is configured in metadata export in /. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[01:35:32.510] Browser LOG     %c[Vercel Web Analytics]%c [view] http://10.10.2.217:3000/#home color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://10.10.2.217:3000/#home","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1775422254459} /_vercel/insights/view
+[01:35:37.007] Server  WARN     ⚠ Unsupported metadata colorScheme is configured in metadata export in /services/electrical. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[01:35:37.200] Browser LOG     %c[Vercel Web Analytics]%c [view] http://10.10.2.217:3000/services/electrical color: rgb(120, 120, 120) color: inherit {"dp":"/services/electrical","o":"http://10.10.2.217:3000/services/electrical","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1775422259147} /_vercel/insights/view
+[01:35:40.515] Server  WARN     ⚠ Unsupported metadata colorScheme is configured in metadata export in /. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[01:35:40.677] Browser LOG     %c[Vercel Web Analytics]%c [view] http://10.10.2.217:3000/#about color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://10.10.2.217:3000/#about","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1775422262626} /_vercel/insights/view
+[01:35:51.917] Server  WARN     ⚠ Unsupported metadata colorScheme is configured in metadata export in /services/telecom. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[01:35:52.121] Browser LOG     %c[Vercel Web Analytics]%c [view] http://10.10.2.217:3000/services/telecom color: rgb(120, 120, 120) color: inherit {"dp":"/services/telecom","o":"http://10.10.2.217:3000/services/telecom","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1775422274068} /_vercel/insights/view
+[01:36:11.838] Server  LOG      ✓ Compiled in 218ms
+[01:36:56.744] Server  LOG      ✓ Compiled in 139ms
+[01:37:27.255] Server  LOG      ✓ Compiled in 149ms
+[01:37:47.267] Server  LOG      ✓ Compiled in 391ms
+[01:38:06.863] Server  LOG      ✓ Compiled in 383ms
+[01:38:19.743] Server  LOG      ✓ Compiled in 152ms
+[01:38:55.789] Server  LOG      ✓ Compiled in 149ms
+[01:39:38.662] Server  LOG      ✓ Compiled in 136ms
+[01:40:04.859] Server  LOG      ✓ Compiled in 115ms
+[01:40:23.715] Server  LOG      ✓ Compiled in 109ms
+[01:40:34.017] Server  LOG      ✓ Compiled in 155ms
+[01:40:41.718] Server  WARN     ⚠ Unsupported metadata colorScheme is configured in metadata export in /. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[01:40:41.956] Browser LOG     %c[Vercel Web Analytics]%c [view] http://10.10.2.217:3000/#home color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://10.10.2.217:3000/#home","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1775422563904} /_vercel/insights/view
+[01:40:47.338] Server  WARN     ⚠ Unsupported metadata colorScheme is configured in metadata export in /services/biogas. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[01:40:47.593] Browser LOG     %c[Vercel Web Analytics]%c [view] http://10.10.2.217:3000/services/biogas color: rgb(120, 120, 120) color: inherit {"dp":"/services/biogas","o":"http://10.10.2.217:3000/services/biogas","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1775422569540} /_vercel/insights/view
+[01:40:59.588] Server  WARN     ⚠ Unsupported metadata colorScheme is configured in metadata export in /. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[01:40:59.802] Browser LOG     %c[Vercel Web Analytics]%c [view] http://10.10.2.217:3000/#home color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://10.10.2.217:3000/#home","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1775422581749} /_vercel/insights/view
+[01:41:05.129] Server  WARN     ⚠ Unsupported metadata colorScheme is configured in metadata export in /services/civil. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[01:41:05.303] Browser LOG     %c[Vercel Web Analytics]%c [view] http://10.10.2.217:3000/services/civil color: rgb(120, 120, 120) color: inherit {"dp":"/services/civil","o":"http://10.10.2.217:3000/services/civil","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1775422587251} /_vercel/insights/view
+[01:41:16.345] Server  WARN     ⚠ Unsupported metadata colorScheme is configured in metadata export in /. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[01:41:16.542] Browser LOG     %c[Vercel Web Analytics]%c [view] http://10.10.2.217:3000/#home color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://10.10.2.217:3000/#home","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1775422598491} /_vercel/insights/view
+[01:41:22.096] Server  WARN     ⚠ Unsupported metadata colorScheme is configured in metadata export in /services/electrical. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[01:41:22.273] Browser LOG     %c[Vercel Web Analytics]%c [view] http://10.10.2.217:3000/services/electrical color: rgb(120, 120, 120) color: inherit {"dp":"/services/electrical","o":"http://10.10.2.217:3000/services/electrical","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1775422604217} /_vercel/insights/view
+[01:41:31.294] Server  WARN     ⚠ Unsupported metadata colorScheme is configured in metadata export in /. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[01:41:31.560] Browser LOG     %c[Vercel Web Analytics]%c [view] http://10.10.2.217:3000/#home color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://10.10.2.217:3000/#home","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1775422613500} /_vercel/insights/view
+[01:41:34.811] Server  WARN     ⚠ Unsupported metadata colorScheme is configured in metadata export in /services/electrical. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[01:41:35.007] Browser LOG     %c[Vercel Web Analytics]%c [view] http://10.10.2.217:3000/services/electrical color: rgb(120, 120, 120) color: inherit {"dp":"/services/electrical","o":"http://10.10.2.217:3000/services/electrical","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1775422616955} /_vercel/insights/view
+[01:41:38.288] Server  WARN     ⚠ Unsupported metadata colorScheme is configured in metadata export in /. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[01:41:38.488] Browser LOG     %c[Vercel Web Analytics]%c [view] http://10.10.2.217:3000/#home color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://10.10.2.217:3000/#home","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1775422620435} /_vercel/insights/view
+[01:41:41.838] Server  WARN     ⚠ Unsupported metadata colorScheme is configured in metadata export in /services/biogas. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[01:41:42.026] Browser LOG     %c[Vercel Web Analytics]%c [view] http://10.10.2.217:3000/services/biogas color: rgb(120, 120, 120) color: inherit {"dp":"/services/biogas","o":"http://10.10.2.217:3000/services/biogas","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1775422623974} /_vercel/insights/view
+[01:41:56.319] Server  LOG      ✓ Compiled in 193ms
+[01:42:19.058] Server  LOG      ✓ Compiled in 119ms
+[01:42:27.266] Server  WARN     ⚠ Unsupported metadata colorScheme is configured in metadata export in /services/biogas. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[01:42:27.996] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:42:28.309] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[01:42:28.309] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/services/biogas","route":"/services/biogas"}
+[01:42:28.309] Browser LOG     %c[Vercel Web Analytics]%c [view] http://10.10.2.217:3000/services/biogas color: rgb(120, 120, 120) color: inherit {"dp":"/services/biogas","o":"http://10.10.2.217:3000/services/biogas","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1775422670258} /_vercel/insights/view
+[01:42:35.462] Server  WARN     ⚠ Unsupported metadata colorScheme is configured in metadata export in /. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[01:42:35.729] Browser WARN    Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior
+[01:42:35.729] Browser LOG     %c[Vercel Web Analytics]%c [view] http://10.10.2.217:3000/#home color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://10.10.2.217:3000/#home","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1775422677669} /_vercel/insights/view
+[01:42:39.524] Server  WARN     ⚠ Unsupported metadata colorScheme is configured in metadata export in /services/civil. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[01:42:39.774] Browser LOG     %c[Vercel Web Analytics]%c [view] http://10.10.2.217:3000/services/civil color: rgb(120, 120, 120) color: inherit {"dp":"/services/civil","o":"http://10.10.2.217:3000/services/civil","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1775422681721} /_vercel/insights/view
+[01:42:59.362] Server  LOG      ✓ Compiled in 325ms
+[01:51:07.687] Server  WARN     ⚠ Unsupported metadata colorScheme is configured in metadata export in /services/civil. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[01:51:07.731] Server  WARN     ⚠ Unsupported metadata colorScheme is configured in metadata export in /services/civil. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[01:51:07.773] Server  WARN     ⚠ Unsupported metadata colorScheme is configured in metadata export in /services/civil. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[01:51:07.822] Server  WARN     ⚠ Unsupported metadata colorScheme is configured in metadata export in /services/civil. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[01:51:08.359] Server  WARN     ⚠ Unsupported metadata colorScheme is configured in metadata export in /services/civil. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[01:51:08.575] Server  WARN     ⚠ Unsupported metadata colorScheme is configured in metadata export in /services/civil. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[01:51:08.578] Server  LOG      ✓ Compiled in 0ms
+[01:51:09.343] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:51:10.266] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[01:51:10.266] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/services/civil","route":"/services/civil"}
+[01:51:10.266] Browser LOG     %c[Vercel Web Analytics]%c [view] http://10.10.2.217:3000/services/civil color: rgb(120, 120, 120) color: inherit {"dp":"/services/civil","o":"http://10.10.2.217:3000/services/civil","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1775423191756} /_vercel/insights/view
+[01:55:04.311] Server  LOG      ✓ Compiled in 229ms
+[09:43:19.017] Server  WARN     ⚠ Unsupported metadata colorScheme is configured in metadata export in /. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[09:43:19.447] Browser WARN    Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior
+[09:43:19.447] Browser LOG     %c[Vercel Web Analytics]%c [view] http://10.10.2.217:3000/#home color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://10.10.2.217:3000/#home","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1775451521390} /_vercel/insights/view
+[09:43:49.130] Server  WARN     ⚠ Unsupported metadata colorScheme is configured in metadata export in /services/telecom. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[09:43:49.426] Browser LOG     %c[Vercel Web Analytics]%c [view] http://10.10.2.217:3000/services/telecom color: rgb(120, 120, 120) color: inherit {"dp":"/services/telecom","o":"http://10.10.2.217:3000/services/telecom","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1775451551365} /_vercel/insights/view
+[09:44:04.834] Server  WARN     ⚠ Unsupported metadata colorScheme is configured in metadata export in /services/electrical. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[09:44:05.071] Browser LOG     %c[Vercel Web Analytics]%c [view] http://10.10.2.217:3000/services/electrical color: rgb(120, 120, 120) color: inherit {"dp":"/services/electrical","o":"http://10.10.2.217:3000/services/electrical","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1775451567007} /_vercel/insights/view
+[09:44:12.329] Server  WARN     ⚠ Unsupported metadata colorScheme is configured in metadata export in /services/civil. Please move it to viewport export instead.
+Read more: https://nextjs.org/docs/app/api-reference/functions/generate-viewport
+[09:44:12.483] Browser LOG     %c[Vercel Web Analytics]%c [view] http://10.10.2.217:3000/services/civil color: rgb(120, 120, 120) color: inherit {"dp":"/services/civil","o":"http://10.10.2.217:3000/services/civil","sdkn":"@vercel/analytics/next","sdkv":"1.3.1","sv":"0.1.3","ts":1775451574432} /_vercel/insights/view

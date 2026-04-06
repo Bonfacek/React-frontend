@@ -8,24 +8,30 @@ export default function ElectricalPage() {
   const { isLoggedIn } = useAuth()
   return (
     <main className="min-h-screen bg-background">
-      {/* Hero Section */}
-      <section className="relative py-20 bg-gradient-to-br from-primary/5 via-background to-accent/5">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="text-center animate-fade-in-up">
-            <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-foreground mb-6">
-              Electrical Engineering & Solar Installation
-            </h1>
-            <p className="text-lg text-muted-foreground max-w-2xl mx-auto mb-8">
-              Complete electrical installation, power distribution, solar energy solutions and renewable energy
-              integration for modern infrastructure.
-            </p>
-          </div>
+   {/* Hero Section */}
+<section className="relative min-h-[80vh] flex items-center justify-center overflow-hidden">
 
-          <div className="mt-12 h-140 rounded-lg overflow-hidden shadow-lg animate-scale-up">
-            <img src="/power.jpg" alt="Electrical Engineering" className="w-full h-full object-cover" />
-          </div>
-        </div>
-      </section>
+ 
+  <div className="absolute inset-0">
+    <img
+      src="/power.jpg"
+      alt="Electrical Engineering"
+      className="w-full h-full object-cover"
+    />
+    <div className="absolute inset-0 bg-black/55" />
+  </div>
+
+  <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20 text-center animate-fade-in-up">
+    <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-maroon-500 mb-6">
+      Electrical Engineering & Solar Installation
+    </h1>
+    <p className="text-lg text-maroon-700 max-w-2xl mx-auto">
+      Complete electrical installation, power distribution, solar energy
+      solutions and renewable energy integration for modern infrastructure.
+    </p>
+  </div>
+
+</section>
 
       {/* Service Details */}
       <section className="py-20">

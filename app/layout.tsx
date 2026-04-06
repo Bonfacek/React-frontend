@@ -1,12 +1,21 @@
 import type React from "react"
 import type { Metadata, Viewport } from "next"
-import { Geist, Geist_Mono } from "next/font/google"
+import { Bebas_Neue, Nunito_Sans } from "next/font/google"
 import { Analytics } from "@vercel/analytics/next"
 import "./globals.css"
-import { AuthProvider } from "@/contexts/AuthContext" 
+import { AuthProvider } from "@/contexts/AuthContext"
 
-const geist = Geist({ subsets: ["latin"] })
-const geistMono = Geist_Mono({ subsets: ["latin"] })
+// Load Google Fonts
+const bebasNeue = Bebas_Neue({
+  weight: "400",
+  subsets: ["latin"],
+  variable: "--font-heading",
+})
+
+const nunitoSans = Nunito_Sans({
+  subsets: ["latin"],
+  variable: "--font-body",
+})
 
 export const metadata: Metadata = {
   title: {
@@ -15,16 +24,11 @@ export const metadata: Metadata = {
   },
   description:
     "Expert construction and engineering services including Biogas Construction, Civil Engineering, Electrical Engineering, and Telecommunications Networks.",
-  keywords: ["engineering", "construction", "biogas", "civil engineering", "electrical engineering", "telecommunications",
-    "networking", "infrastructure", "project management", "sustainable solutions", "renewable energy", "jawatech", "jawatech engineering", "jawatech construction", "jawatech biogas", "jawatech civil engineering", "jawatech electrical engineering", "jawatech telecommunications",
-    "jawatech networking", "jawatech infrastructure", "jawatech project management", "jawatech sustainable solutions", "jawatech renewable energy",
-    "construction company", "engineering firm", "biogas construction", "civil engineering services", "electrical engineering solutions", "telecommunications networks", "network infrastructure", "sustainable construction", "renewable energy projects"
-  ],
-  formatDetection: {
-    email: false,
-    address: false,
-    telephone: false,
-  },
+  keywords: ["engineering", "construction", "biogas", "civil engineering",
+    "electrical engineering", "telecommunications", "networking",
+    "infrastructure", "project management", "sustainable solutions",
+    "renewable energy", "jawatech"],
+  formatDetection: { email: false, address: false, telephone: false },
   generator: "Jawatech",
   creator: "Jawatech Engineering",
   publisher: "Jawatech Engineering",
@@ -34,9 +38,9 @@ export const metadata: Metadata = {
     googleBot: {
       index: true,
       follow: true,
-      'max-video-preview': -1,
-      'max-image-preview': 'large',
-      'max-snippet': -1,
+      "max-video-preview": -1,
+      "max-image-preview": "large",
+      "max-snippet": -1,
     },
   },
   openGraph: {
@@ -46,27 +50,20 @@ export const metadata: Metadata = {
     },
     description:
       "Expert construction and engineering services including Biogas Construction, Civil Engineering, Electrical Engineering, and Telecommunications Networks.",
-    url: "https://jawatech.com", //will repace with domain
+    url: "https://jawatech.com",
     siteName: "Jawatech Engineering",
     locale: "en_US",
     type: "website",
-    images: [
-      {
-        url: "/ico.jpg", // Add your Open Graph image
-        width: 1200,
-        height: 630,
-        alt: "Jawatech Engineering",
-      },
-    ],
+    images: [{ url: "/ico.jpg", width: 1200, height: 630, alt: "Jawatech Engineering" }],
   },
   twitter: {
     card: "summary_large_image",
     title: "Jawatech Engineering - Construction & Engineering Solutions",
     description:
       "Expert construction and engineering services including Biogas Construction, Civil Engineering, Electrical Engineering, and Telecommunications Networks.",
-    images: ["/bridge.jpg"], // Add your Twitter image
-    creator: "@jawatech", // Replace with your Twitter handle
-    site: "@jawatech", // Replace with your Twitter handle
+    images: ["/bridge.jpg"],
+    creator: "@jawatech",
+    site: "@jawatech",
   },
   category: "technology",
   classification: "web application",
@@ -75,40 +72,16 @@ export const metadata: Metadata = {
   manifest: "/manifest.json",
   icons: {
     icon: [
-      {
-        url: "/icon.jpg",
-        sizes: "any",
-      },
-      {
-        url: "/icon.jpg",
-        type: "image/jpeg",
-        media: "(prefers-color-scheme: light)",
-      },
-      {
-        url: "/icon-dark.jpg", 
-        type: "image/jpeg",
-        media: "(prefers-color-scheme: dark)",
-      },
+      { url: "/icon.jpg", sizes: "any" },
+      { url: "/icon.jpg", type: "image/jpeg", media: "(prefers-color-scheme: light)" },
+      { url: "/icon-dark.jpg", type: "image/jpeg", media: "(prefers-color-scheme: dark)" },
     ],
-    apple: [
-      {
-        url: "/apple-icon.jpg",
-        sizes: "180x180",
-        type: "image/jpeg",
-      },
-    ],
+    apple: [{ url: "/apple-icon.jpg", sizes: "180x180", type: "image/jpeg" }],
     shortcut: ["/shortcut-icon.jpg"],
   },
-  metadataBase: new URL("https://jawatech.com"), // Replace with your actual domain
-  alternates: {
-    canonical: "/",
-  },
-  authors: [
-    {
-      name: "Jawatech Engineering",
-      url: "https://jawatech.com",
-    },
-  ],
+  metadataBase: new URL("https://jawatech.com"),
+  alternates: { canonical: "/" },
+  authors: [{ name: "Jawatech Engineering", url: "https://jawatech.com" }],
 }
 
 export const viewport: Viewport = {
@@ -120,20 +93,20 @@ export const viewport: Viewport = {
     { media: "(prefers-color-scheme: light)", color: "#ffffff" },
     { media: "(prefers-color-scheme: dark)", color: "#000000" },
   ],
-   colorScheme: "light dark",
+  colorScheme: "light dark",
 }
-
 
 export default function RootLayout({
   children,
-}: Readonly<{
-  children: React.ReactNode
-}>) {
+}: Readonly<{ children: React.ReactNode }>) {
   return (
-    <html lang="en" className="scroll-smooth">
-      <body className={`font-sans antialiased`}>
+    <html
+      lang="en"
+      className={`scroll-smooth ${bebasNeue.variable} ${nunitoSans.variable}`}
+    >
+      <body className="font-body antialiased">
         <AuthProvider>
-               {children}
+          {children}
         </AuthProvider>
         <Analytics />
       </body>
