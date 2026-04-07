@@ -92,7 +92,7 @@ export default function Login() {
           </div>
               <div className="relative mb-6">
               <div className="flex justify-center">
-                <span className="text-xs text-blue-500 text-sm text-muted-foreground mt-4 text-center font-bold italic  tracking-wider">
+                <span className="text-xs text-blue-500 dark:text-blue-400 italic tracking-wider">
                   or continue with email
                 </span>
               </div>
