@@ -68,7 +68,6 @@ export const metadata: Metadata = {
   category: "technology",
   classification: "web application",
   referrer: "origin-when-cross-origin",
-  colorScheme: "light dark",
   manifest: "/manifest.json",
   icons: {
     icon: [
