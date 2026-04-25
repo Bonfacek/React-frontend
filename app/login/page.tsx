@@ -33,7 +33,7 @@ export default function Login() {
     setError("")
 
     try {
-      const response = await fetch("http://localhost:8080/userapi/login", {
+      const response = await fetch("${process.env.NEXT_PUBLIC_API_URL}/userapi/login", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ email, password }),
@@ -61,7 +61,7 @@ export default function Login() {
       "oauth2ReturnTo",
       new URLSearchParams(window.location.search).get("returnTo") || "/"
     )
-    window.location.href = `http://localhost:8080/oauth2/authorization/${provider}`
+    window.location.href = `${process.env.NEXT_PUBLIC_API_URL}/oauth2/authorization/${provider}`
   }
 
   return (
@@ -151,3 +151,4 @@ export default function Login() {
     </main>
   )
 }
+v

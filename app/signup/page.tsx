@@ -72,7 +72,7 @@ export default function Register() {
 
     setLoading(true)
     try {
-      const response = await fetch("http://localhost:8080/userapi/signup", {
+      const response = await fetch("${process.env.NEXT_PUBLIC_API_URL}/userapi/signup", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ username, email, password }),
@@ -95,7 +95,7 @@ export default function Register() {
   const handleSocialLogin = (provider: string) => {
     setSocialLoading(provider)
     // Redirect to Spring Boot OAuth2 endpoint
-    window.location.href = `http://localhost:8080/oauth2/authorization/${provider}`
+    window.location.href = `${process.env.NEXT_PUBLIC_API_URL}/oauth2/authorization/${provider}`
   }
 
   return (
