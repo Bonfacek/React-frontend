@@ -72,7 +72,7 @@ export default function Register() {
 
     setLoading(true)
     try {
-      const response = await fetch("${process.env.NEXT_PUBLIC_API_URL}/userapi/signup", {
+      const response = await fetch(`${process.env.NEXT_PUBLIC_API_URL}/userapi/signup`, {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ username, email, password }),
