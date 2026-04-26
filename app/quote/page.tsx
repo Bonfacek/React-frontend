@@ -118,7 +118,7 @@ export default function QuotePage() {
     }
     
     try {
-      const response = await fetch(`{process.env.NEXT_PUBLIC_API_URL}/api/quotes/submit`, {
+      const response = await fetch(`${process.env.NEXT_PUBLIC_API_URL}/api/quotes/submit`, {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
