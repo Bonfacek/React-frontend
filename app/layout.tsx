@@ -50,7 +50,7 @@ export const metadata: Metadata = {
     },
     description:
       "Expert construction and engineering services including Biogas Construction, Civil Engineering, Electrical Engineering, and Telecommunications Networks.",
-    url: "https://jawatech.com",
+    url: "https://jawatech.lads.sc.ke",
     siteName: "Jawatech Engineering",
     locale: "en_US",
     type: "website",
@@ -78,9 +78,9 @@ export const metadata: Metadata = {
     apple: [{ url: "/apple-icon.jpg", sizes: "180x180", type: "image/jpeg" }],
     shortcut: ["/shortcut-icon.jpg"],
   },
-  metadataBase: new URL("https://jawatech.com"),
+  metadataBase: new URL("https://jawatech.lads.sc.ke"),
   alternates: { canonical: "/" },
-  authors: [{ name: "Jawatech Engineering", url: "https://jawatech.com" }],
+  authors: [{ name: "Jawatech Engineering", url: "https://jawatech.lads.sc.ke" }],
 }
 
 export const viewport: Viewport = {
