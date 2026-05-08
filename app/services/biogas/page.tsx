@@ -83,7 +83,7 @@ export default function BiogasPage() {
                   "Feedstock availability analysis",
                   "Projected gas output report",
                 ],
-                image: "/consultation.jpg",
+                image: "/biogas-plant.jpg",
               },
               {
                 step: "02",
@@ -96,7 +96,7 @@ export default function BiogasPage() {
                   "Material & cost breakdown",
                   "Regulatory compliance checks",
                 ],
-                image: "/design.jpg",
+                image: "/biogas-plant.png",
               },
               {
                 step: "03",
@@ -109,7 +109,7 @@ export default function BiogasPage() {
                   "Gas piping & storage installation",
                   "Quality checks at every stage",
                 ],
-                image: "/construction.jpg",
+                image: "/biogas-plant.jpg",
               },
               {
                 step: "04",
@@ -122,7 +122,7 @@ export default function BiogasPage() {
                   "Operator training & manual",
                   "1-year warranty & aftercare",
                 ],
-                image: "/commissioning.jpg",
+                image: "/biogas-plant.jpg",
               },
             ].map((item, i) => (
               <div
@@ -178,42 +178,42 @@ export default function BiogasPage() {
                 title: "Free Cooking Gas",
                 description:
                   "Eliminate or dramatically reduce your LPG and firewood costs. A well-fed biodigester provides enough gas for all daily household cooking needs.",
-                media: "/benefits/cooking-gas.jpg", // replace with your file
+                media: "/biogas-plant.jpg", 
                 type: "image",                       // "image" or "video"
               },
               {
                 title: "Rich Organic Fertiliser",
                 description:
                   "The bioslurry produced is a potent, ready-to-use organic fertiliser that improves soil health and boosts crop yields — reducing chemical fertiliser spend.",
-                media: "/benefits/fertiliser.mp4",
+                media: "/biogas.mp4",
                 type: "video",
               },
               {
                 title: "Reliable Energy Independence",
                 description:
                   "No more dependence on fuel supply chains or price volatility. Your energy is generated on-site, every single day, from waste you already have.",
-                media: "/benefits/energy.jpg",
+                media: "/biogas-plant.jpg",
                 type: "image",
               },
               {
                 title: "Reduced Carbon Footprint",
                 description:
                   "Biogas replaces fossil fuels and captures methane that would otherwise escape into the atmosphere. A measurable contribution to climate action.",
-                media: "/benefits/carbon.mp4",
+                media: "/biogas.mp4",
                 type: "video",
               },
               {
                 title: "Clean Indoor Air",
                 description:
                   "Switching from wood or charcoal to biogas eliminates harmful indoor smoke, dramatically reducing respiratory illness — especially for women and children.",
-                media: "/benefits/clean-air.jpg",
+                media: "/biogas-plant.jpg",
                 type: "image",
               },
               {
                 title: "Strong Return on Investment",
                 description:
                   "Most installations recover their full cost within 3–5 years through fuel savings alone, then deliver free energy and fertiliser for 20+ years.",
-                media: "/benefits/roi.mp4",
+                media: "/biogas.mp4",
                 type: "video",
               },
             ].map((benefit, i) => (
