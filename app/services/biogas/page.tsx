@@ -9,19 +9,21 @@ export default function BiogasPage() {
   const { isLoggedIn } = useAuth()
   return (
     <main className="min-h-screen bg-background">
-      <section className="relative py-20 min-h-[80vh] flex items-center justify-center overflow-hidden">
+      <section className="relative py-20 min-h-[90vh] flex items-center justify-center overflow-hidden">
         <div className="absolute inset-0">
-          <img
-            src="/biogas-plant.png"
-            alt="Biogas Construction"
-            className="w-full h-full object-cover"
+         <video
+            src="/biogas.mp4"
+            autoPlay
+            loop
+            muted
+            className="w-full h-full object-cover opacity-70"
           />
           <div className="absolute inset-0 bg-black/55" />
         </div>
 
         <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex flex-col items-center animate-fade-in-up">
-            <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-[#8B0000] mb-6">
+            <h1 className="text-6xl sm:text-5xl lg:text-6xl font-bold text-[#158b00] mb-6">
               Biogas Construction
             </h1>
             <p className="text-lg text-white/80 italic max-w-2xl mx-auto mb-8">
@@ -65,6 +67,194 @@ export default function BiogasPage() {
               </ul>
             </div>
           </div>
+         {/* Our Process */}
+          <div className="py-20 mb-20 animate-fade-in-up">
+            <h2 className="text-3xl font-bold text-foreground mb-12 text-center">Our Process</h2>
+
+            {[
+              {
+                step: "01",
+                tag: "Discovery",
+                title: "Consultation & Feasibility",
+                description:
+                  "We begin with an in-depth analysis of your waste streams, energy needs, and site conditions. Our engineers assess the optimal biogas solution size, feedstock availability, and projected gas output before a single brick is laid.",
+                features: [
+                  "Site visit & soil assessment",
+                  "Feedstock availability analysis",
+                  "Projected gas output report",
+                ],
+                image: "/consultation.jpg",
+              },
+              {
+                step: "02",
+                tag: "Engineering",
+                title: "Design & Engineering",
+                description:
+                  "Custom biogas plant design using advanced modeling software to maximise efficiency and output. Every system is drawn to your specific site layout, feedstock type, and capacity requirements.",
+                features: [
+                  "CAD drawings & structural plans",
+                  "Material & cost breakdown",
+                  "Regulatory compliance checks",
+                ],
+                image: "/design.jpg",
+              },
+              {
+                step: "03",
+                tag: "Build",
+                title: "Construction & Installation",
+                description:
+                  "Our expert construction team ensures timely, high-quality installation of your biogas facility. We handle all civil works, pipework, gas storage, and appliance connection from start to finish.",
+                features: [
+                  "Skilled masonry & civil works",
+                  "Gas piping & storage installation",
+                  "Quality checks at every stage",
+                ],
+                image: "/construction.jpg",
+              },
+              {
+                step: "04",
+                tag: "Handover",
+                title: "Commissioning & Support",
+                description:
+                  "Comprehensive testing, operator training, and ongoing support to ensure your plant runs at peak performance. We don't leave until you're confident and fully operational.",
+                features: [
+                  "Full system pressure testing",
+                  "Operator training & manual",
+                  "1-year warranty & aftercare",
+                ],
+                image: "/commissioning.jpg",
+              },
+            ].map((item, i) => (
+              <div
+                key={i}
+                className={`grid grid-cols-1 lg:grid-cols-2 gap-16 items-center mb-24 last:mb-0 ${
+                  i % 2 !== 0 ? "lg:[&>*:first-child]:order-2" : ""
+                }`}
+              >
+                {/* Text side */}
+                <div className="flex flex-col gap-4">
+                  <div className="flex items-center gap-3">
+                    <span className="text-5xl font-bold text-primary/20 leading-none">{item.step}</span>
+                    <span className="inline-flex items-center text-xs font-semibold px-3 py-1 rounded-md bg-primary/10 text-primary">
+                      {item.tag}
+                    </span>
+                  </div>
+                  <h3 className="text-2xl font-bold text-foreground">{item.title}</h3>
+                  <p className="text-muted-foreground leading-relaxed">{item.description}</p>
+                  <ul className="flex flex-col gap-2 mt-2">
+                    {item.features.map((f, j) => (
+                      <li key={j} className="flex items-center gap-3 text-sm text-muted-foreground">
+                        <CheckCircle className="w-4 h-4 text-primary flex-shrink-0" />
+                        {f}
+                      </li>
+                    ))}
+                  </ul>
+                </div>
+
+                {/* Image side */}
+                <div className="rounded-2xl overflow-hidden border border-border aspect-[4/3]">
+                  <img
+                    src={item.image}
+                    alt={item.title}
+                    className="w-full h-full object-cover"
+                  />
+                </div>
+              </div>
+            ))}
+          </div>
+                  {/* Benefits of Installing Biogas */}
+        <div className="py-20 mb-20 animate-fade-in-up">
+          <div className="text-center mb-14">
+            <h2 className="text-3xl font-bold text-foreground mb-3">Why Install a Biogas Plant?</h2>
+            <p className="text-muted-foreground max-w-xl mx-auto text-sm leading-relaxed">
+              A biogas plant is more than an energy source — it's a long-term investment in your household,
+              farm, or institution's sustainability and independence.
+            </p>
+          </div>
+
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+            {[
+              {
+                title: "Free Cooking Gas",
+                description:
+                  "Eliminate or dramatically reduce your LPG and firewood costs. A well-fed biodigester provides enough gas for all daily household cooking needs.",
+                media: "/benefits/cooking-gas.jpg", // replace with your file
+                type: "image",                       // "image" or "video"
+              },
+              {
+                title: "Rich Organic Fertiliser",
+                description:
+                  "The bioslurry produced is a potent, ready-to-use organic fertiliser that improves soil health and boosts crop yields — reducing chemical fertiliser spend.",
+                media: "/benefits/fertiliser.mp4",
+                type: "video",
+              },
+              {
+                title: "Reliable Energy Independence",
+                description:
+                  "No more dependence on fuel supply chains or price volatility. Your energy is generated on-site, every single day, from waste you already have.",
+                media: "/benefits/energy.jpg",
+                type: "image",
+              },
+              {
+                title: "Reduced Carbon Footprint",
+                description:
+                  "Biogas replaces fossil fuels and captures methane that would otherwise escape into the atmosphere. A measurable contribution to climate action.",
+                media: "/benefits/carbon.mp4",
+                type: "video",
+              },
+              {
+                title: "Clean Indoor Air",
+                description:
+                  "Switching from wood or charcoal to biogas eliminates harmful indoor smoke, dramatically reducing respiratory illness — especially for women and children.",
+                media: "/benefits/clean-air.jpg",
+                type: "image",
+              },
+              {
+                title: "Strong Return on Investment",
+                description:
+                  "Most installations recover their full cost within 3–5 years through fuel savings alone, then deliver free energy and fertiliser for 20+ years.",
+                media: "/benefits/roi.mp4",
+                type: "video",
+              },
+            ].map((benefit, i) => (
+              <div
+                key={i}
+                className="group bg-card border border-border rounded-2xl overflow-hidden flex flex-col hover:shadow-lg transition-shadow duration-300"
+              >
+                {/* Media */}
+                <div className="relative w-full aspect-video overflow-hidden bg-muted">
+                  {benefit.type === "video" ? (
+                    <video
+                      src={benefit.media}
+                      className="w-full h-full object-cover"
+                      muted
+                      loop
+                      playsInline
+                      onMouseEnter={(e) => e.currentTarget.play()}
+                      onMouseLeave={(e) => {
+                        e.currentTarget.pause()
+                        e.currentTarget.currentTime = 0
+                      }}
+                    />
+                  ) : (
+                    <img
+                      src={benefit.media}
+                      alt={benefit.title}
+                      className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
+                    />
+                  )}
+                </div>
+
+                {/* Text */}
+                <div className="p-6 flex flex-col gap-2">
+                  <h3 className="text-base font-bold text-foreground">{benefit.title}</h3>
+                  <p className="text-muted-foreground text-sm leading-relaxed">{benefit.description}</p>
+                </div>
+              </div>
+            ))}
+          </div>
+        </div>
+
 
           {/* Project Examples */}
           <div className="mb-20 animate-fade-in-up">
