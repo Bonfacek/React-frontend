@@ -350,9 +350,9 @@ function ProcessRow({
         key={j}
         src={item.image[j]}
         alt={`${item.title} — image ${j + 1}`}
-        className={`absolute inset-0 w-full h-full object-cover transition-opacity duration-500 ${
-          j === current ? "opacity-100" : "opacity-0"
-        }`}
+         className={`absolute inset-0 w-full h-full object-contain transition-opacity duration-700 ${
+        j === current ? "opacity-100" : "opacity-0"
+      }`}
       />
     )
   }
@@ -402,7 +402,7 @@ function ProcessRow({
 
       {/* Slideshow side */}
       <div
-        className="relative rounded-2xl overflow-hidden border border-border aspect-[4/3] group shadow-sm"
+       className="relative rounded-2xl overflow-hidden border border-border aspect-[3/4] lg:aspect-[4/3] group shadow-sm bg-muted"
         onMouseEnter={() => setPaused(true)}
         onMouseLeave={() => setPaused(false)}
       >
