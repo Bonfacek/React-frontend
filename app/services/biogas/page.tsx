@@ -4,12 +4,13 @@ import { is } from "date-fns/locale"
 import { CheckCircle } from "lucide-react"
 import Link from "next/link"
 import { useAuth } from "@/contexts/AuthContext"
+import React from "react"
 
 export default function BiogasPage() {
   const { isLoggedIn } = useAuth()
   return (
     <main className="min-h-screen bg-background">
-      <section className="relative py-20 min-h-[90vh] flex items-center justify-center overflow-hidden">
+      <section className="relative py-20 min-h-[85vh] flex items-center justify-center overflow-hidden">
         <div className="absolute inset-0">
          <video
             src="/biogas.mp4"
@@ -60,109 +61,75 @@ export default function BiogasPage() {
                   "Scalable solutions for any capacity",
                 ].map((item, i) => (
                   <li key={i} className="flex items-start gap-3">
-                    <CheckCircle className="w-5 h-5 text-primary flex-shrink-0 mt-0.5" />
+                    <CheckCircle className="w-5 h-5 text-primary shrink-0 mt-0.5" />
                     <span className="text-foreground">{item}</span>
                   </li>
                 ))}
               </ul>
             </div>
           </div>
-         {/* Our Process */}
-          <div className="py-20 mb-20 animate-fade-in-up">
-            <h2 className="text-3xl font-bold text-foreground mb-12 text-center">Our Process</h2>
+          {/* Our Process */}
+        <div className="py-20 mb-20 animate-fade-in-up">
+          <h2 className="text-3xl font-bold text-foreground mb-12 text-center">Our Process</h2>
 
-            {[
-              {
-                step: "01",
-                tag: "Discovery",
-                title: "Consultation & Feasibility",
-                description:
-                  "We begin with an in-depth analysis of your waste streams, energy needs, and site conditions. Our engineers assess the optimal biogas solution size, feedstock availability, and projected gas output before a single brick is laid.",
-                features: [
-                  "Site visit & soil assessment",
-                  "Feedstock availability analysis",
-                  "Projected gas output report",
-                ],
-                image: "/biogas-plant.jpg",
-              },
-              {
-                step: "02",
-                tag: "Engineering",
-                title: "Design & Engineering",
-                description:
-                  "Custom biogas plant design using advanced modeling software to maximise efficiency and output. Every system is drawn to your specific site layout, feedstock type, and capacity requirements.",
-                features: [
-                  "CAD drawings & structural plans",
-                  "Material & cost breakdown",
-                  "Regulatory compliance checks",
-                ],
-                image: "/biogas-plant.png",
-              },
-              {
-                step: "03",
-                tag: "Build",
-                title: "Construction & Installation",
-                description:
-                  "Our expert construction team ensures timely, high-quality installation of your biogas facility. We handle all civil works, pipework, gas storage, and appliance connection from start to finish.",
-                features: [
-                  "Skilled masonry & civil works",
-                  "Gas piping & storage installation",
-                  "Quality checks at every stage",
-                ],
-                image: "/biogas-plant.jpg",
-              },
-              {
-                step: "04",
-                tag: "Handover",
-                title: "Commissioning & Support",
-                description:
-                  "Comprehensive testing, operator training, and ongoing support to ensure your plant runs at peak performance. We don't leave until you're confident and fully operational.",
-                features: [
-                  "Full system pressure testing",
-                  "Operator training & manual",
-                  "1-year warranty & aftercare",
-                ],
-                image: "/biogas-plant.jpg",
-              },
-            ].map((item, i) => (
-              <div
-                key={i}
-                className={`grid grid-cols-1 lg:grid-cols-2 gap-16 items-center mb-24 last:mb-0 ${
-                  i % 2 !== 0 ? "lg:[&>*:first-child]:order-2" : ""
-                }`}
-              >
-                {/* Text side */}
-                <div className="flex flex-col gap-4">
-                  <div className="flex items-center gap-3">
-                    <span className="text-5xl font-bold text-primary/20 leading-none">{item.step}</span>
-                    <span className="inline-flex items-center text-xs font-semibold px-3 py-1 rounded-md bg-primary/10 text-primary">
-                      {item.tag}
-                    </span>
-                  </div>
-                  <h3 className="text-2xl font-bold text-foreground">{item.title}</h3>
-                  <p className="text-muted-foreground leading-relaxed">{item.description}</p>
-                  <ul className="flex flex-col gap-2 mt-2">
-                    {item.features.map((f, j) => (
-                      <li key={j} className="flex items-center gap-3 text-sm text-muted-foreground">
-                        <CheckCircle className="w-4 h-4 text-primary flex-shrink-0" />
-                        {f}
-                      </li>
-                    ))}
-                  </ul>
-                </div>
-
-                {/* Image side */}
-                <div className="rounded-2xl overflow-hidden border border-border aspect-[4/3]">
-                  <img
-                    src={item.image}
-                    alt={item.title}
-                    className="w-full h-full object-cover"
-                  />
-                </div>
-              </div>
-            ))}
-          </div>
-                  {/* Benefits of Installing Biogas */}
+          {[
+            {
+              step: "01",
+              tag: "Discovery",
+              title: "Consultation & Feasibility",
+              description:
+                "We begin with an in-depth analysis of your waste streams, energy needs, and site conditions. Our engineers assess the optimal biogas solution size, feedstock availability, and projected gas output before a single brick is laid.",
+              features: [
+                "Site visit & soil assessment",
+                "Feedstock availability analysis",
+                "Projected gas output report",
+              ],
+              image: ["/site_survey.jpg", "/site -mark.jpg"],
+            },
+            {
+              step: "02",
+              tag: "Engineering",
+              title: "Design & Engineering",
+              description:
+                "Custom biogas plant design using advanced modeling software to maximise efficiency and output. Every system is drawn to your specific site layout, feedstock type, and capacity requirements.",
+              features: [
+                "CAD drawings & structural plans",
+                "Material & cost breakdown",
+                "Regulatory compliance checks",
+              ],
+              image: ["/biogas-plant.jpg", "/site -mark.jpg"],
+            },
+            {
+              step: "03",
+              tag: "Build",
+              title: "Construction & Installation",
+              description:
+                "Our expert construction team ensures timely, high-quality installation of your biogas facility. We handle all civil works, pipework, gas storage, and appliance connection from start to finish.",
+              features: [
+                "Skilled masonry & civil works",
+                "Gas piping & storage installation",
+                "Quality checks at every stage",
+              ],
+              image: ["/biogasflame.png", "/site -mark.jpg", "/almost.jpeg"],
+            },
+            {
+              step: "04",
+              tag: "Handover",
+              title: "Commissioning & Support",
+              description:
+                "Comprehensive testing, operator training, and ongoing support to ensure your plant runs at peak performance. We don't leave until you're confident and fully operational.",
+              features: [
+                "Full system pressure testing",
+                "Operator training & manual",
+                "1-year warranty & aftercare",
+              ],
+              image: ["/biogasflame.png", "/biogas-plant.jpg", "/biogas-plant.png"],
+            },
+          ].map((item, i) => (
+            <ProcessRow key={i} item={item} index={i} />
+          ))}
+        </div>
+        {/* Benefits of Installing Biogas */}
         <div className="py-20 mb-20 animate-fade-in-up">
           <div className="text-center mb-14">
             <h2 className="text-3xl font-bold text-foreground mb-3">Why Install a Biogas Plant?</h2>
@@ -284,7 +251,7 @@ export default function BiogasPage() {
           </div>
 
           {/* Stats */}
-          <div className="bg-gradient-to-r from-primary/10 to-accent/10 rounded-lg p-8 mb-20 animate-scale-up">
+          <div className="bg-linear-to-r from-primary/10 to-accent/10 rounded-lg p-8 mb-20 animate-scale-up">
             <div className="grid grid-cols-1 md:grid-cols-3 gap-8 text-center">
               <div>
                 <div className="text-4xl font-bold text-primary mb-2">50+</div>
@@ -325,8 +292,7 @@ export default function BiogasPage() {
               ))}
             </div>
           </div>
-
-          {/* CTA */}
+            {/* Call to Action */}
           <div className="bg-primary text-primary-foreground rounded-lg p-12 text-center animate-scale-up">
             <h2 className="text-3xl font-bold mb-4">Ready to Start Your Biogas Project?</h2>
             <p className="text-primary-foreground/90 mb-6 max-w-2xl mx-auto">
@@ -342,5 +308,140 @@ export default function BiogasPage() {
         </div>
       </section>
     </main>
+  )
+}
+
+function ProcessRow({
+  item,
+  index,
+}: {
+  item: {
+    step: string
+    tag: string
+    title: string
+    description: string
+    features: string[]
+    image: string[]
+  }
+  index: number
+}) {
+  const [current, setCurrent] = React.useState(0)
+  const [paused, setPaused] = React.useState(false)
+
+  const next = React.useCallback(() => {
+    setCurrent((prev) => (prev + 1) % item.image.length)
+  }, [item.image.length])
+
+  const prev = () => {
+    setCurrent((prev) => (prev - 1 + item.image.length) % item.image.length)
+  }
+
+  React.useEffect(() => {
+    if (paused || item.image.length <= 1) return
+    const timer = setInterval(next, 3500)
+    return () => clearInterval(timer)
+  }, [paused, next, item.image.length])
+
+  // Build slides with for loop
+  const slides = []
+  for (let j = 0; j < item.image.length; j++) {
+    slides.push(
+      <img
+        key={j}
+        src={item.image[j]}
+        alt={`${item.title} — image ${j + 1}`}
+        className={`absolute inset-0 w-full h-full object-cover transition-opacity duration-500 ${
+          j === current ? "opacity-100" : "opacity-0"
+        }`}
+      />
+    )
+  }
+
+  // Build dots with for loop
+  const dots = []
+  for (let j = 0; j < item.image.length; j++) {
+    dots.push(
+      <button
+        key={j}
+        onClick={() => { setCurrent(j); setPaused(true) }}
+        aria-label={`Go to image ${j + 1}`}
+        className={`rounded-full transition-all duration-300 ${
+          j === current
+            ? "bg-white w-5 h-1.5"
+            : "bg-white/50 w-1.5 h-1.5 hover:bg-white/80"
+        }`}
+      />
+    )
+  }
+
+  return (
+    <div
+      className={`grid grid-cols-1 lg:grid-cols-2 gap-16 items-center mb-24 last:mb-0 ${
+        index % 2 !== 0 ? "lg:[&>*:first-child]:order-2" : ""
+      }`}
+    >
+      {/* Text side */}
+      <div className="flex flex-col gap-4">
+        <div className="flex items-center gap-3">
+          <span className="text-5xl font-bold text-primary/20 leading-none">{item.step}</span>
+          <span className="inline-flex items-center text-xs font-semibold px-3 py-1 rounded-md bg-primary/10 text-primary">
+            {item.tag}
+          </span>
+        </div>
+        <h3 className="text-2xl font-bold text-foreground">{item.title}</h3>
+        <p className="text-muted-foreground leading-relaxed">{item.description}</p>
+        <ul className="flex flex-col gap-2 mt-2">
+          {item.features.map((f, j) => (
+            <li key={j} className="flex items-center gap-3 text-sm text-muted-foreground">
+              <CheckCircle className="w-4 h-4 text-primary shrink-0" />
+              {f}
+            </li>
+          ))}
+        </ul>
+      </div>
+
+      {/* Slideshow side */}
+      <div
+        className="relative rounded-2xl overflow-hidden border border-border aspect-[4/3] group shadow-sm"
+        onMouseEnter={() => setPaused(true)}
+        onMouseLeave={() => setPaused(false)}
+      >
+        {/* Slides */}
+        {slides}
+
+        {/* Arrows — only show if more than 1 image */}
+        {item.image.length > 1 && (
+          <>
+            <button
+              onClick={prev}
+              aria-label="Previous image"
+              className="absolute left-3 top-1/2 -translate-y-1/2 w-8 h-8 rounded-full bg-black/50 text-white text-lg flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-200 hover:bg-black/70 z-10"
+            >
+              ‹
+            </button>
+            <button
+              onClick={next}
+              aria-label="Next image"
+              className="absolute right-3 top-1/2 -translate-y-1/2 w-8 h-8 rounded-full bg-black/50 text-white text-lg flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-200 hover:bg-black/70 z-10"
+            >
+              ›
+            </button>
+
+            {/* Dot indicators */}
+            <div className="absolute bottom-3 left-1/2 -translate-x-1/2 flex gap-1.5 z-10">
+              {dots}
+            </div>
+
+            {/* Progress bar */}
+            {!paused && (
+              <div
+                key={current}
+                className="absolute bottom-0 left-0 h-[2px] bg-primary/70 z-10 animate-progress-bar"
+              />
+            )}
+          </>
+        )}
+      </div>
+    </div>
   )
 }

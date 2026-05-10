@@ -121,3 +121,10 @@
     @apply bg-background text-foreground;
   }
 }
+@keyframes progress-bar {
+  from { width: 0% }
+  to   { width: 100% }
+}
+.animate-progress-bar {
+  animation: progress-bar 3.5s linear forwards;
+}
