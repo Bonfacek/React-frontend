@@ -21,18 +21,6 @@ export default function Header() {
     { name: "Telecom Networks", href: "/services/telecom" },
   ]
 
-  // Close mobile menu on scroll
-  useEffect(() => {
-    const handleScroll = () => {
-      if (isOpen) {
-        setIsOpen(false)
-        setMobileServicesOpen(false)
-      }
-    }
-    window.addEventListener("scroll", handleScroll, { passive: true })
-    return () => window.removeEventListener("scroll", handleScroll)
-  }, [isOpen])
-
   // Close mobile menu on outside tap/click
   useEffect(() => {
     const handleOutsideClick = (e: MouseEvent | TouchEvent) => {
@@ -176,21 +164,21 @@ export default function Header() {
             }}
           >
             <span className="sr-only">{isOpen ? "Close menu" : "Open menu"}</span>
-            <div className="w-5 flex flex-col gap-[5px]">
-              <span className={`block h-[2px] bg-foreground rounded-full transition-all duration-300 origin-center ${isOpen ? "rotate-45 translate-y-[7px]" : ""}`} />
-              <span className={`block h-[2px] bg-foreground rounded-full transition-all duration-300 ${isOpen ? "opacity-0 scale-x-0" : ""}`} />
-              <span className={`block h-[2px] bg-foreground rounded-full transition-all duration-300 origin-center ${isOpen ? "-rotate-45 -translate-y-[7px]" : ""}`} />
+            <div className="w-5 flex flex-col gap-1.25">
+              <span className={`block h-0.5 bg-foreground rounded-full transition-all duration-300 origin-center ${isOpen ? "rotate-45 translate-y-[7px]" : ""}`} />
+              <span className={`block h-0.5 bg-foreground rounded-full transition-all duration-300 ${isOpen ? "opacity-0 scale-x-0" : ""}`} />
+              <span className={`block h-0.5 bg-foreground rounded-full transition-all duration-300 origin-center ${isOpen ? "-rotate-45 -translate-y-[7px]" : ""}`} />
             </div>
           </button>
         </nav>
 
         {/* Mobile Navigation */}
-        <div
-          className={`md:hidden bg-background overflow-hidden transition-all duration-300 ease-in-out ${
-            isOpen ? "max-h-[600px] border-t border-border duration-500 opacity-100" : "max-h-0 opacity-0"
-          }`}
-        >
-          <div className="px-5 pt-4 pb-6 flex flex-col">
+     <div
+        className={`md:hidden bg-background fixed rounded-3xl top-16 right-0 w-2/3 z-50 shadow-xl transition-all duration-300 ease-in-out ${
+          isOpen ? "translate-x-0 opacity-100" : "translate-x-full opacity-0"
+        }`}
+      >
+          <div className="px-5 pt-4 pb-6 flex flex-col overflow-y-auto ">
 
             <MobileNavLink href="/#home" onClose={() => setIsOpen(false)}>Home</MobileNavLink>
             <MobileNavLink href="/#about" onClose={() => setIsOpen(false)}>About</MobileNavLink>
@@ -257,10 +245,10 @@ export default function Header() {
             )}
 
             {/* Bottom CTAs */}
-            <div className="mt-5 flex flex-col gap-3">
+            <div className="mt-5 flex flex-col gap-2">
               <Link
                 href="/contact"
-                className="block bg-primary text-primary-foreground px-4 py-3.5 rounded-xl text-center font-semibold hover:bg-primary/90 active:scale-[0.98] transition-all duration-150"
+                className="block bg-primary text-primary-foreground px-2 py-1 rounded-lg text-sm text-center font-semibold hover:bg-primary/90 active:scale-[0.98] transition-all duration-150"
                 onClick={() => setIsOpen(false)}
               >
                 Contact Us
@@ -268,7 +256,7 @@ export default function Header() {
               {!loading && !isLoggedIn && (
                 <Link
                   href="/login"
-                  className="block border border-primary/30 text-primary px-4 py-3.5 rounded-xl text-center font-semibold hover:bg-primary/5 active:scale-[0.98] transition-all duration-150"
+                  className="block border border-primary/30 text-primary px-2 py-1 rounded-lg text-sm text-center font-semibold hover:bg-primary/5 active:scale-[0.98] transition-all duration-150"
                   onClick={() => setIsOpen(false)}
                 >
                   Sign In
@@ -279,17 +267,6 @@ export default function Header() {
           </div>
         </div>
       </header>
-
-      {/* Backdrop — dims page content behind open menu */}
-      {isOpen && (
-        <div
-          className="fixed inset-0 top-[73px] bg-black/30 z-40 md:hidden backdrop-blur-[1px] transition-opacity duration-300"
-          onClick={() => {
-            setIsOpen(false)
-            setMobileServicesOpen(false)
-          }}
-        />
-      )}
     </>
   )
 }
@@ -301,7 +278,7 @@ function NavLink({ href, children }: { href: string; children: React.ReactNode }
       className="relative text-foreground hover:text-primary font-bold transition-colors duration-200 group px-1"
     >
       {children}
-      <span className="absolute -bottom-1 left-0 w-0 h-[2px] bg-primary rounded-full transition-all duration-300 ease-out group-hover:w-full" />
+      <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-primary rounded-full transition-all duration-300 ease-out group-hover:w-full" />
     </Link>
   )
 }

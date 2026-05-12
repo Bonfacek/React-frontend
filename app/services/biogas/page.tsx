@@ -110,7 +110,7 @@ export default function BiogasPage() {
                 "Gas piping & storage installation",
                 "Quality checks at every stage",
               ],
-              image: ["/biogasflame.png", "/site -mark.jpg", "/almost.jpeg"],
+              image: ["/biogasflame.png", "/site -mark.jpg", "/biogas-plant.png"],
             },
             {
               step: "04",
@@ -350,9 +350,9 @@ function ProcessRow({
         key={j}
         src={item.image[j]}
         alt={`${item.title} — image ${j + 1}`}
-         className={`absolute inset-0 w-full h-full object-contain transition-opacity duration-700 ${
-        j === current ? "opacity-100" : "opacity-0"
-      }`}
+        className={`absolute inset-0 w-full h-full object-cover transition-opacity duration-500 ${
+          j === current ? "opacity-100" : "opacity-0"
+        }`}
       />
     )
   }
@@ -402,7 +402,7 @@ function ProcessRow({
 
       {/* Slideshow side */}
       <div
-       className="relative rounded-2xl overflow-hidden border border-border aspect-[3/4] lg:aspect-[4/3] group shadow-sm bg-muted"
+        className="relative rounded-2xl overflow-hidden border border-border aspect-3/2 group shadow-sm"
         onMouseEnter={() => setPaused(true)}
         onMouseLeave={() => setPaused(false)}
       >
