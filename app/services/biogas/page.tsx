@@ -97,7 +97,7 @@ export default function BiogasPage() {
                 "Material & cost breakdown",
                 "Regulatory compliance checks",
               ],
-              image: ["/biogas-plant.jpg", "/site -mark.jpg"],
+              image: ["/site -mark.jpg"],
             },
             {
               step: "03",
@@ -110,7 +110,7 @@ export default function BiogasPage() {
                 "Gas piping & storage installation",
                 "Quality checks at every stage",
               ],
-              image: ["/biogasflame.png", "/site -mark.jpg", "/biogas-plant.png"],
+              image: ["/constuction.jpg", "/almost.jpeg"],
             },
             {
               step: "04",
@@ -123,7 +123,7 @@ export default function BiogasPage() {
                 "Operator training & manual",
                 "1-year warranty & aftercare",
               ],
-              image: ["/biogasflame.png", "/biogas-plant.jpg", "/biogas-plant.png"],
+              image: ["/burred.jpeg"],
             },
           ].map((item, i) => (
             <ProcessRow key={i} item={item} index={i} />
@@ -436,7 +436,7 @@ function ProcessRow({
             {!paused && (
               <div
                 key={current}
-                className="absolute bottom-0 left-0 h-[2px] bg-primary/70 z-10 animate-progress-bar"
+                className="absolute bottom-0 left-0 h-0.5 bg-primary/70 z-10 animate-progress-bar"
               />
             )}
           </>

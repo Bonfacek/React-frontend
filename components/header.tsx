@@ -165,9 +165,9 @@ export default function Header() {
           >
             <span className="sr-only">{isOpen ? "Close menu" : "Open menu"}</span>
             <div className="w-5 flex flex-col gap-1.25">
-              <span className={`block h-0.5 bg-foreground rounded-full transition-all duration-300 origin-center ${isOpen ? "rotate-45 translate-y-[7px]" : ""}`} />
+              <span className={`block h-0.5 bg-foreground rounded-full transition-all duration-300 origin-center ${isOpen ? "rotate-45 translate-y-1.75" : ""}`} />
               <span className={`block h-0.5 bg-foreground rounded-full transition-all duration-300 ${isOpen ? "opacity-0 scale-x-0" : ""}`} />
-              <span className={`block h-0.5 bg-foreground rounded-full transition-all duration-300 origin-center ${isOpen ? "-rotate-45 -translate-y-[7px]" : ""}`} />
+              <span className={`block h-0.5 bg-foreground rounded-full transition-all duration-300 origin-center ${isOpen ? "-rotate-45 -translate-y-1.75" : ""}`} />
             </div>
           </button>
         </nav>
@@ -256,7 +256,7 @@ export default function Header() {
               {!loading && !isLoggedIn && (
                 <Link
                   href="/login"
-                  className="block border border-primary/30 text-primary px-2 py-1 rounded-lg text-sm text-center font-semibold hover:bg-primary/5 active:scale-[0.98] transition-all duration-150"
+                  className="block border border-primary/30 text-primary px-2u-1 rounded-lg text-sm text-center font-semibold hover:bg-primary/5 active:scale-[0.98] transition-all duration-150"
                   onClick={() => setIsOpen(false)}
                 >
                   Sign In
