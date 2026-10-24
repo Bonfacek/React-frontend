@@ -42,7 +42,7 @@ export default function ContactPage() {
               <h3 className="text-xl font-bold text-foreground mb-2">Email Us</h3>
               <p className="text-muted-foreground mb-4">We'll respond within 24 hours</p>
               <a
-                href="#quote"
+                href="/quote"
                 className="inline-block text-primary hover:text-primary/80 font-bold text-lg break-all"
               >
                 karaninjoroge005@gmail.com
