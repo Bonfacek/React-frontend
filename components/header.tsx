@@ -130,11 +130,11 @@ export default function Header() {
             </div>
 
             <NavLink href="/#experience">Experience</NavLink>
-            <NavLink href={!loading && isLoggedIn ? "/quote" : "/login?returnTo=/quote"}>
+            <NavLink href={"/quote"}>
               Get Consultation
             </NavLink>
 
-            {!loading && (
+            {/*{!loading && (
               isLoggedIn ? (
                 <Link href="/logout" className="text-foreground hover:text-primary transition-colors font-bold hover:underline">
                   Logout
@@ -142,8 +142,7 @@ export default function Header() {
               ) : (
                 <NavLink href="/login">Login</NavLink>
               )
-            )}
-
+            )}*/}
             <Link
               href="/contact"
               className="bg-primary text-primary-foreground px-6 py-2 rounded-lg hover:bg-primary/90 transition-colors font-medium"

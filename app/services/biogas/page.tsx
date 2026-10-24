@@ -299,7 +299,7 @@ export default function BiogasPage() {
               Contact us today for a consultation and feasibility study tailored to your specific requirements.
             </p>
             <Link
-              href={isLoggedIn ? "/quote" : "/login?returnTo=/quote"}
+              href= {"/quote"}
               className="inline-block bg-primary-foreground text-primary px-8 py-3 rounded-lg font-bold hover:bg-secondary transition-colors"
             >
               Get a Quote
